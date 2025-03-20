@@ -1,96 +1,27 @@
-# FFF_Template
 
-To use this repository:
-
-1. Use this template to create a new repository
-1. Clone the newly repository on IRIS
-1. Follow the steps indicated below
-
-## 1. Dependencies
-
-Skip this section if you have run a FFF campaign with this template before
-
-### Pre-requisites
-
-- [ ] Get SSH access to `cepheus-slurm.diamond.ac.uk`. You may need to tunnel via `ssh.diamond.ac.uk`
-
-- [ ] Create a working directory (and symbolic link for convenience): 
-
-```bash
-DATA=/opt/xchem-fragalysis-2
-mkdir -pv $DATA/YOUR_NICKNAME
-ln -s $DATA/YOUR_NICKNAME $HOME/YOUR_NICKNAME
-```
-
-- [ ] Install conda
-
-```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
-CONDA_PREFIX=$HOME/YOUR_NICKNAME/conda
-bash Miniforge3-$(uname)-$(uname -m).sh -p $CONDA_PREFIX -b
-source $CONDA_PREFIX/etc/profile.d/conda.sh
-```
-
-- [ ] Activate @mwinokan's environment:
-
-```bash
-conda activate $DATA/maxwin/conda/envs/py312
-```
-
-- [ ] Configure Jupyter (you will be prompted to set a password)
-
-```bash
-bash $DATA/maxwin/slurm/notebook.sh -p 9500 -d YOUR_NICKNAME -cd conda -jc $DATA/YOUR_NICKNAME/jupyter_slurm -ce py312 -ajc -js
-```
-
-- [ ] Submit a jupyter notebook job (will expire every 8 days)
-
-```bash
-sbatch --job-name notebook -p gpu --exclusive $DATA/maxwin/slurm/notebook.sh -p 9500 -d YOUR_NICKNAME -cd conda -jc $DATA/YOUR_NICKNAME/jupyter_slurm -ce py312 -ajc
-```
-
-- [ ] Check which IP address your job is running on, using the job ID from the submitted job:
-
-```bash
-rq -j JOB_ID --long
-```
-
-- [ ] log out of cepheus-slurm and log back in while forwarding the correct port, e.g. the below will assumes your job is running on `192.168.222.22` with port `9500` and will allow you to access the notebook at `localhost:8080` from a browser:
-
-```bash
-ssh -L 8080:192.168.222.22:9500 cepheus-slurm.diamond.ac.uk
-```
-
-- [ ] For Fragment Knitwork access to the `graph-sw2` VM is via bastion and needs to be requested from @mwinokan
-
-### Checklist
-
-- [ ] you can ssh to IRIS (cepheus-slurm.diamond.ac.uk)
-- [ ] you can connect to a Jupyter notebook on IRIS
-- [ ] you can run `python -m bulkdock status` from the BulkDock directory
-- [ ] you can `import hippo` from a notebook
-- [ ] you can run `fragmenstein --help`
-- [ ] you can ssh to the graph-sw2 VM (optional, only for Knitwork)
-- [ ] you can run `syndirella --help`
+# TRIM21 FFF
 
 ## 2. Setup the Target for FFF with HIPPO and BulkDock
 
-- [ ] Define merging opportunities by creating tags of LHS hits in Fragalysis
-- [ ] Download target from Fragalysis and place the .zip archive in the repo
-- [ ] Setup target in BulkDock 
+- [x] Define merging opportunities by creating tags of LHS hits in Fragalysis
+
+> use all fragments
+
+- [x] Download target from Fragalysis and place the .zip archive in the repo
+- [x] Setup target in BulkDock 
 
 ```bash
-cp -v TARGET_NAME.zip $BULK/TARGETS
+cp -v TRIM21.zip $BULK/TARGETS
 cd $BULK
-python -m bulkdock extract TARGET_NAME
-python -m bulkdock setup TARGET_NAME
+python -m bulkdock extract TRIM21
+python -m bulkdock setup TRIM21
 ```
 
-- [ ] Copy the `aligned_files` directory from `$BULK/TARGETS/TARGET_NAME/aligned_files` into this repository
+- [x] Copy the `aligned_files` directory from `$BULK/TARGETS/TRIM21/aligned_files` into this repository
 
 ```bash
 cd - 
-cp -rv $BULK/TARGETS/TARGET_NAME/aligned_files .
+cp -rv $BULK/TARGETS/TRIM21/aligned_files .
 ```
 
 ## 3. Compound Design
@@ -99,18 +30,18 @@ cp -rv $BULK/TARGETS/TARGET_NAME/aligned_files .
 
 ### Fragmenstein
 
-For each merging hypothesis (i.e. HYPOTHESIS_NICKNAME)
+For each merging hypothesis (i.e. iter1)
 
 - [ ] go to the fragmenstein subdirectory `cd fragmenstein`
 - [ ] queue fragmenstein job 
 
 ```bash
-sbatch --job-name "TARGET_NAME_HYPOTHESIS_NICKNAME_fragmenstein" --mem 16000 $HOME2/slurm/run_bash_with_conda.sh run_fragmenstein.sh HYPOTHESIS_NICKNAME
+sbatch --job-name "TRIM21_iter1_fragmenstein" --mem 16000 $HOME2/slurm/run_bash_with_conda.sh run_fragmenstein.sh iter1
 ```
 
-This will create outputs in the chosen HYPOTHESIS_NICKNAME subdirectory:
+This will create outputs in the chosen iter1 subdirectory:
 
-- **`HYPOTHESIS_NICKNAME_fstein_bulkdock_input.csv`: use this for BulkDock placement**
+- **`iter1_fstein_bulkdock_input.csv`: use this for BulkDock placement**
 - `output`: fragmenstein merge poses in subdirectories
 - `output.sdf`: fragmenstein merge ligand conformers
 - `output.csv`: fragmenstein merge metadata
@@ -118,9 +49,9 @@ This will create outputs in the chosen HYPOTHESIS_NICKNAME subdirectory:
 - [ ] placement with bulkdock
 
 ```bash
-cp -v HYPOTHESIS_NICKNAME_fstein_bulkdock_input.csv $BULK/INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_fstein.csv
+cp -v iter1_fstein_bulkdock_input.csv $BULK/INPUTS/TRIM21_iter1_fstein.csv
 cd $BULK
-python -m bulkdock place TARGET_NAME INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_fstein.csv
+python -m bulkdock place TRIM21 INPUTS/TRIM21_iter1_fstein.csv
 ```
 
 - [ ] monitor placements (until complete)
@@ -138,14 +69,14 @@ watch python -m bulkdock status
 - [ ] export Fragalysis SDF
 
 ```bash
-python -m bulkdock to-fragalysis TARGET_NAME OUTPUTS/SDF_FILE HYPOTHESIS_NICKNAME_fstein
+python -m bulkdock to-fragalysis TRIM21 OUTPUTS/SDF_FILE iter1_fstein
 ```
 
 - [ ] Copy back to this repository
 
 ```bash
 cd -
-cp -v $BULK/OUTPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME*fstein*fragalysis.sdf .
+cp -v $BULK/OUTPUTS/TRIM21_iter1*fstein*fragalysis.sdf .
 ```
 
 ### Fragment Knitwork
@@ -158,20 +89,20 @@ Running Fragment Knitting currently requires access to a specific VM known as `g
 
 Then, for each merging hypothesis:
 
-- [ ] Run the "fragment" step of FragmentKnitwork: `./run_fragment.sh HYPOTHESIS_NICKNAME`
-- [ ] Run the pure "knitting" step of FragmentKnitwork: `./run_knitwork_pure.sh HYPOTHESIS_NICKNAME`
-- [ ] Run the impure "knitting" step of FragmentKnitwork: `./run_knitwork_impure.sh HYPOTHESIS_NICKNAME`
-- [ ] Create the BulkDock inputs: `python to_bulkdock.py HYPOTHESIS_NICKNAME`
+- [ ] Run the "fragment" step of FragmentKnitwork: `./run_fragment.sh iter1`
+- [ ] Run the pure "knitting" step of FragmentKnitwork: `./run_knitwork_pure.sh iter1`
+- [ ] Run the impure "knitting" step of FragmentKnitwork: `./run_knitwork_impure.sh iter1`
+- [ ] Create the BulkDock inputs: `python to_bulkdock.py iter1`
 - [ ] `git add`, `commit` and `push` the CSVs created by the previous step
 - [ ] back on `cepheus-slurm` pull the latest changes
 - [ ] Run BulkDock placement as for Fragmenstein above
 
 ```bash
-cp -v HYPOTHESIS_NICKNAME_knitwork_pure.csv $BULK/INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_knitwork_pure.csv
-cp -v HYPOTHESIS_NICKNAME_knitwork_impure.csv $BULK/INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_knitwork_impure.csv
+cp -v iter1_knitwork_pure.csv $BULK/INPUTS/TRIM21_iter1_knitwork_pure.csv
+cp -v iter1_knitwork_impure.csv $BULK/INPUTS/TRIM21_iter1_knitwork_impure.csv
 cd $BULK
-python -m bulkdock place TARGET_NAME INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_knitwork_pure.csv
-python -m bulkdock place TARGET_NAME INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_knitwork_impure.csv
+python -m bulkdock place TRIM21 INPUTS/TRIM21_iter1_knitwork_pure.csv
+python -m bulkdock place TRIM21 INPUTS/TRIM21_iter1_knitwork_impure.csv
 ```
 
 ### Summary tables / figures
@@ -182,15 +113,15 @@ python -m bulkdock place TARGET_NAME INPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME_knit
 
 ```bash
 cd $BULK
-python -m bulkdock to-fragalysis TARGET_NAME OUTPUTS/SDF_FILE HYPOTHESIS_NICKNAME_knit_pure
-python -m bulkdock to-fragalysis TARGET_NAME OUTPUTS/SDF_FILE HYPOTHESIS_NICKNAME_knit_impure
+python -m bulkdock to-fragalysis TRIM21 OUTPUTS/SDF_FILE iter1_knit_pure
+python -m bulkdock to-fragalysis TRIM21 OUTPUTS/SDF_FILE iter1_knit_impure
 ```
 
 - [ ] Copy back to this repository
 
 ```bash
 cd -
-cp -v $BULK/OUTPUTS/TARGET_NAME_HYPOTHESIS_NICKNAME*knitwork*fragalysis.sdf .
+cp -v $BULK/OUTPUTS/TRIM21_iter1*knitwork*fragalysis.sdf .
 ```
 
 ## 4. Scaffold selection
@@ -207,7 +138,7 @@ Once merges have been generated for a given merging hypothesis, they should be s
 
 ```bash
 cd syndirella
-./submit_elabs.sh HYPOTHESIS_NICKNAME
+./submit_elabs.sh iter1
 ```
 
 - [ ] Check the elabs with the notebook `hippo/3_check_elabs.ipynb`.
