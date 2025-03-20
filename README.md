@@ -26,14 +26,14 @@ cp -rv $BULK/TARGETS/TRIM21/aligned_files .
 
 ## 3. Compound Design
 
-- [ ] run the notebook `hippo/1_merge_prep.ipynb`
+- [x] run the notebook `hippo/1_merge_prep.ipynb`
 
 ### Fragmenstein
 
 For each merging hypothesis (i.e. iter1)
 
-- [ ] go to the fragmenstein subdirectory `cd fragmenstein`
-- [ ] queue fragmenstein job 
+- [x] go to the fragmenstein subdirectory `cd fragmenstein`
+- [x] queue fragmenstein job 
 
 ```bash
 sbatch --job-name "TRIM21_iter1_fragmenstein" --mem 16000 $HOME2/slurm/run_bash_with_conda.sh run_fragmenstein.sh iter1
@@ -46,7 +46,7 @@ This will create outputs in the chosen iter1 subdirectory:
 - `output.sdf`: fragmenstein merge ligand conformers
 - `output.csv`: fragmenstein merge metadata
 
-- [ ] placement with bulkdock
+- [x] placement with bulkdock
 
 ```bash
 cp -v iter1_fstein_bulkdock_input.csv $BULK/INPUTS/TRIM21_iter1_fstein.csv
