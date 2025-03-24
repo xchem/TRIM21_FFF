@@ -1,0 +1,815 @@
+{
+  "m0145a": {
+    "O=C(Nc1nncs1)C1CCCO1": "O=C(Nc1nnc([Xe])s1)C1CCCO1",
+    "C1CCOC1": "[Xe]C1CCCO1",
+    "CC": "CC[Xe]",
+    "C1CCOC1.CC": "CC.[Xe]C1CCCO1,C1CCOC1.CC[Xe]",
+    "NC(=O)C1CCCO1": "O=C(N[Xe])C1CCCO1",
+    "CCc1nnc(NC=O)s1": "CCc1nnc(NC(=O)[Xe])s1",
+    "NC=O": "O=CN[Xe],NC(=O)[Xe]",
+    "C1CCOC1.c1nncs1": "C1CCOC1.[Xe]c1nncs1",
+    "c1nncs1": "[Xe]c1nncs1",
+    "CCc1nncs1": "CCc1nnc([Xe])s1",
+    "O=CNc1nncs1": "O=C([Xe])Nc1nncs1,O=CNc1nnc([Xe])s1",
+    "CC.NC=O": "CC.NC(=O)[Xe]"
+  },
+  "m0031a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "Fc1ccccc1": "Fc1ccc([Xe])cc1",
+    "F": "F[Xe]",
+    "CCNS(C)(=O)=O": "CS(=O)(=O)NCC[Xe]",
+    "CS(=O)(=O)NCCc1ccccc1": "CS(=O)(=O)NCCc1ccc([Xe])cc1"
+  },
+  "m0037a": {
+    "c1cnoc1": "[Xe]c1ccno1,[Xe]c1ccon1",
+    "Cc1ccc(=O)[nH]n1": "Cc1ccc(=O)n([Xe])n1",
+    "C.Cc1ccc(=O)[nH]n1": "Cc1ccc(=O)n(C[Xe])n1,C[Xe].Cc1ccc(=O)[nH]n1,C.Cc1ccc(=O)n([Xe])n1",
+    "Cc1ccon1.O=c1cccn[nH]1": "Cc1ccon1.O=c1ccc([Xe])n[nH]1",
+    "O=c1cccnn1Cc1ccno1": "O=c1cccnn1Cc1cc([Xe])no1,O=c1ccc([Xe])nn1Cc1ccno1",
+    "O=c1cccn[nH]1": "O=c1cccnn1[Xe],O=c1ccc([Xe])n[nH]1",
+    "Cc1cc(C)on1": "Cc1cc(C[Xe])on1",
+    "C.c1cnoc1": "C.[Xe]c1ccon1,Cc1cc([Xe])on1,C[Xe].c1cnoc1,Cc1cc([Xe])no1,C.[Xe]c1ccno1,[Xe]Cc1ccno1",
+    "Cn1ncccc1=O": "O=c1cccnn1C[Xe],Cn1nc([Xe])ccc1=O",
+    "Cc1cc(Cn2ncccc2=O)on1": "Cc1cc(Cn2nc([Xe])ccc2=O)on1",
+    "C.Cc1ccno1": "C.Cc1cc([Xe])no1,Cc1cc(C[Xe])on1",
+    "O=c1cccn[nH]1.c1cnoc1": "O=c1ccc([Xe])n[nH]1.c1cnoc1,O=c1cccn[nH]1.[Xe]c1ccon1",
+    "C.Cc1ccon1": "C.Cc1cc([Xe])on1,C[Xe].Cc1ccon1,Cc1cc(C[Xe])on1",
+    "Cc1ccc(=O)[nH]n1.c1cnoc1": "Cc1ccc(=O)[nH]n1.[Xe]c1ccon1",
+    "C.Cn1ncccc1=O": "C.Cn1nc([Xe])ccc1=O,Cc1ccc(=O)n(C[Xe])n1",
+    "Cc1ccc(=O)n(Cc2ccno2)n1": "Cc1ccc(=O)n(Cc2cc([Xe])no2)n1",
+    "Cc1ccc(=O)n(C)n1": "Cc1ccc(=O)n(C[Xe])n1",
+    "C": "C[Xe]",
+    "C.O=c1cccn[nH]1": "C.O=c1cccnn1[Xe],O=c1cccnn1C[Xe],C[Xe].O=c1cccn[nH]1,C.O=c1ccc([Xe])n[nH]1,Cn1nc([Xe])ccc1=O,Cc1ccc(=O)n([Xe])n1",
+    "Cc1ccon1": "Cc1cc([Xe])on1",
+    "Cc1ccno1": "Cc1cc([Xe])no1,[Xe]Cc1ccno1",
+    "C.C": "C.C[Xe]"
+  },
+  "m0043a": {
+    "C1CC2(CCOC2)CN1": "[Xe],[Xe]N1CCC2(CCOC2)C1",
+    "c1cnccn1": "[Xe]c1cnccn1,[Xe]",
+    "C1CC2(CCOC2)CN1.c1cnccn1": "[Xe]",
+    "c1cnc(N2CCC3(CCOC3)C2)cn1": "[Xe]"
+  },
+  "m0046a": {
+    "CN1CCC1": "CN1CC([Xe])C1,[Xe]CN1CCC1",
+    "C.O": "C[Xe].O",
+    "OC1CN(Cc2ccccc2)C1": "OC1CN(C([Xe])c2ccccc2)C1",
+    "C1CNC1.c1ccccc1": "[Xe]C1CNC1.c1ccccc1",
+    "OC1CNC1": "OC1CN([Xe])C1",
+    "c1ccc(CN2CCC2)cc1": "[Xe]C(c1ccccc1)N1CCC1,[Xe]C1CN(Cc2ccccc2)C1",
+    "CN1CC(O)C1": "OC1CN(C[Xe])C1",
+    "O.c1ccccc1.c1ccccc1": "O[Xe].c1ccccc1.c1ccccc1",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "O.c1ccccc1": "O[Xe].c1ccccc1,O.[Xe]c1ccccc1",
+    "C1CNC1": "[Xe]N1CCC1,[Xe]C1CNC1",
+    "c1ccc(Cc2ccccc2)cc1": "[Xe]C(c1ccccc1)c1ccccc1",
+    "C": "C[Xe]",
+    "C1CNC1.c1ccccc1.c1ccccc1": "[Xe]C1CNC1.c1ccccc1.c1ccccc1",
+    "Cc1ccccc1.O": "O.[Xe]Cc1ccccc1",
+    "O": "O[Xe]",
+    "Cc1ccccc1": "[Xe]Cc1ccccc1",
+    "c1ccc(C(c2ccccc2)N2CCC2)cc1": "[Xe]C1CN(C(c2ccccc2)c2ccccc2)C1"
+  },
+  "m0099a": {
+    "c1ccc2c(c1)C1CCC2NC1": "[Xe]N1CC2CCC1c1ccccc12",
+    "CC=O": "CC(=O)[Xe]"
+  },
+  "m0102a": {
+    "Cc1ccncn1": "Cc1ccnc([Xe])n1,[Xe],Cc1cc([Xe])ncn1",
+    "Cc1ccnc(CO)n1": "Cc1cc([Xe])nc(CO)n1,[Xe]",
+    "C.C1CCNCC1": "[Xe],C1CCNCC1.C[Xe]",
+    "OCc1ncccn1": "OCc1nccc([Xe])n1,[Xe]",
+    "C1CCNCC1.c1cncnc1": "C1CCNCC1.[Xe]c1ncccn1,C1CCNCC1.[Xe]c1ccncn1,[Xe]c1cc(N2CCCCC2)ncn1,[Xe]c1nccc(N2CCCCC2)n1,[Xe]",
+    "C1CCNCC1": "[Xe]N1CCCCC1,[Xe]",
+    "C1CCNCC1.CO": "C1CCNCC1.OC[Xe],[Xe]",
+    "c1cncnc1": "[Xe]c1ncccn1,[Xe]c1ccncn1,[Xe]",
+    "C1CCNCC1.Cc1ccnc(CO)n1": "[Xe]",
+    "C.CO": "[Xe]",
+    "OCc1nccc(N2CCCCC2)n1": "OCc1nc([Xe])cc(N2CCCCC2)n1,[Xe]",
+    "C1CCNCC1.Cc1ccncn1": "C1CCNCC1.Cc1ccnc([Xe])n1,[Xe],Cc1cc(N2CCCCC2)nc([Xe])n1",
+    "Cc1cc(N2CCCCC2)ncn1": "[Xe],Cc1cc(N2CCCCC2)nc([Xe])n1",
+    "CO": "OC[Xe],[Xe]",
+    "C.C1CCNCC1.CO": "[Xe]",
+    "Cc1cc(N2CCCCC2)nc(CO)n1": "[Xe]",
+    "C": "C[Xe],[Xe]",
+    "c1cc(N2CCCCC2)ncn1": "[Xe]c1cc(N2CCCCC2)ncn1,[Xe]c1nccc(N2CCCCC2)n1,[Xe]",
+    "C1CCNCC1.OCc1ncccn1": "OCc1nc([Xe])cc(N2CCCCC2)n1,[Xe],C1CCNCC1.OCc1nccc([Xe])n1"
+  },
+  "m0140a": {
+    "c1ccc2[nH]cnc2c1": "[Xe]c1nc2ccccc2[nH]1,[Xe]n1cnc2ccccc21",
+    "CCC(N)=O": "CCC(=O)N[Xe]",
+    "CCC(=O)Nc1nc2ccccc2[nH]1": "CCC(=O)Nc1nc2ccccc2n1[Xe]",
+    "CCC": "CCC[Xe]",
+    "CCCn1cnc2ccccc21": "CCCn1c([Xe])nc2ccccc21"
+  },
+  "m0176a": {
+    "C1CC1.O=Cc1ccco1": "O=Cc1ccco1.[Xe]C1CC1,C1CC1.O=C([Xe])c1ccco1",
+    "C1CC1.c1ccoc1": "[Xe]C1CC1.c1ccoc1,C1CC1.[Xe]c1ccco1",
+    "O=CN1CCN(C=O)CC1": "O=CN1CCN(C(=O)[Xe])CC1",
+    "C=O.c1ccoc1": "O=C[Xe].c1ccoc1,C=O.[Xe]c1ccco1,O=C([Xe])c1ccco1",
+    "O=CN1CCNCC1.c1ccoc1": "O=C(c1ccco1)N1CCN([Xe])CC1,O=C([Xe])N1CCNCC1.c1ccoc1",
+    "O=Cc1ccco1": "O=C([Xe])c1ccco1",
+    "O=CC1CC1.c1ccoc1": "O=C([Xe])C1CC1.c1ccoc1,O=CC1CC1.[Xe]c1ccco1",
+    "C=O.O=CC1CC1": "O=CC1CC1.O=C[Xe]",
+    "C=O": "O=C[Xe]",
+    "C=O.O=Cc1ccco1": "O=C[Xe].O=Cc1ccco1",
+    "C1CC1.O=CN1CCNCC1": "O=C(C1CC1)N1CCN([Xe])CC1,C1CC1.O=C([Xe])N1CCNCC1",
+    "C1CNCCN1": "[Xe]N1CCNCC1",
+    "O=CN1CCN(C(=O)c2ccco2)CC1": "O=C([Xe])N1CCN(C(=O)c2ccco2)CC1",
+    "O=C(C1CC1)N1CCNCC1": "O=C(C1CC1)N1CCN([Xe])CC1",
+    "O=CN1CCNCC1": "O=C([Xe])N1CCNCC1,O=CN1CCN([Xe])CC1",
+    "c1ccoc1": "[Xe]c1ccco1",
+    "C1CNCCN1.c1ccoc1": "[Xe]N1CCNCC1.c1ccoc1",
+    "C1CC1": "[Xe]C1CC1",
+    "O=CN1CCN(C(=O)C2CC2)CC1": "O=C([Xe])N1CCN(C(=O)C2CC2)CC1",
+    "C=O.C=O": "C=O.O=C[Xe]",
+    "C1CC1.C1CNCCN1": "C1CC1.[Xe]N1CCNCC1",
+    "O=CC1CC1": "O=C([Xe])C1CC1",
+    "C1CC1.C=O": "C=O.[Xe]C1CC1,C1CC1.O=C[Xe],O=C([Xe])C1CC1",
+    "O=C(c1ccco1)N1CCNCC1": "O=C(c1ccco1)N1CCN([Xe])CC1"
+  },
+  "m0194a": {
+    "C": "C[Xe]",
+    "CC(C)N(C)c1ncnc2[nH]ncc12": "CC(C)N(C)c1ncnc2c1cnn2[Xe]",
+    "CNC(C)C": "CC(C)N(C)[Xe]",
+    "c1ncc2cn[nH]c2n1": "[Xe]n1ncc2cncnc21,[Xe]c1ncnc2[nH]ncc12",
+    "Cn1ncc2cncnc21": "Cn1ncc2c([Xe])ncnc21"
+  },
+  "m0194b": {
+    "C": "C[Xe]",
+    "CC(C)N(C)c1ncnc2[nH]ncc12": "CC(C)N(C)c1ncnc2c1cnn2[Xe]",
+    "CNC(C)C": "CC(C)N(C)[Xe]",
+    "c1ncc2cn[nH]c2n1": "[Xe]n1ncc2cncnc21,[Xe]c1ncnc2[nH]ncc12",
+    "Cn1ncc2cncnc21": "Cn1ncc2c([Xe])ncnc21"
+  },
+  "m0199a": {
+    "O=Cc1csnn1": "O=C([Xe])c1csnn1",
+    "O=CN1CCOCC1": "O=C([Xe])N1CCOCC1",
+    "c1csnn1": "[Xe]c1csnn1",
+    "C1COCCN1": "[Xe]N1CCOCC1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0199b": {
+    "O=Cc1csnn1": "O=C([Xe])c1csnn1",
+    "O=CN1CCOCC1": "O=C([Xe])N1CCOCC1",
+    "c1csnn1": "[Xe]c1csnn1",
+    "C1COCCN1": "[Xe]N1CCOCC1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0215a": {
+    "O=C1CCCN1": "O=C1CCCN1[Xe]",
+    "NC(=O)CN1CCCC1=O": "O=C(CN1CCCC1=O)N[Xe]",
+    "CC(N)=O": "CC(=O)N[Xe],NC(=O)C[Xe]",
+    "c1cscn1": "[Xe]c1nccs1",
+    "CC(=O)Nc1nccs1": "O=C(C[Xe])Nc1nccs1"
+  },
+  "m0215b": {
+    "O=C1CCCN1": "O=C1CCCN1[Xe]",
+    "NC(=O)CN1CCCC1=O": "O=C(CN1CCCC1=O)N[Xe]",
+    "CC(N)=O": "CC(=O)N[Xe],NC(=O)C[Xe]",
+    "c1cscn1": "[Xe]c1nccs1",
+    "CC(=O)Nc1nccs1": "O=C(C[Xe])Nc1nccs1"
+  },
+  "m0219a": {
+    "CNS(C)(=O)=O": "CS(=O)(=O)NC[Xe]",
+    "CS(=O)(=O)NCC1CCCNC1": "CS(=O)(=O)NCC1CCCN([Xe])C1",
+    "CC=O": "CC(=O)[Xe]",
+    "CC(=O)N1CCCCC1": "CC(=O)N1CCCC([Xe])C1",
+    "C1CCNCC1": "[Xe]N1CCCCC1,[Xe]C1CCCNC1"
+  },
+  "m0225a": {
+    "NC(=O)c1ccc2c(c1)OCO2": "O=C(N[Xe])c1ccc2c(c1)OCO2",
+    "O=CNC1CC1": "O=C([Xe])NC1CC1",
+    "NC=O": "O=CN[Xe],NC(=O)[Xe]",
+    "c1ccc2c(c1)OCO2": "[Xe]c1ccc2c(c1)OCO2",
+    "C1CC1": "[Xe]C1CC1"
+  },
+  "m0238a": {
+    "CNC": "CN(C)[Xe]",
+    "CN(C)c1ccccn1": "CN(C)c1cc([Xe])ccn1",
+    "CC(=O)NCc1ccncc1": "CC(=O)NCc1ccnc([Xe])c1",
+    "c1ccncc1": "[Xe]c1ccncc1,[Xe]c1ccccn1",
+    "CNC(C)=O": "CC(=O)NC[Xe]"
+  },
+  "m0243a": {
+    "O=S1(=O)CCNCC1": "O=S1(=O)CCN([Xe])CC1",
+    "CCOC(C)=O": "CCOC(=O)C[Xe]"
+  },
+  "m0248a": {
+    "C.C1CCNCC1": "C.[Xe]N1CCCCC1,C.[Xe]C1CCNCC1,C1CCNCC1.C[Xe]",
+    "NC=O": "NC(=O)[Xe]",
+    "C1CCNCC1": "[Xe]C1CCNCC1,[Xe]N1CCCCC1",
+    "Cc1cccc(C(=O)N2CCCCC2)c1": "Cc1cccc(C(=O)N2CCC([Xe])CC2)c1",
+    "C=O": "O=C[Xe]",
+    "Cc1cccc(C=O)c1": "Cc1cccc(C(=O)[Xe])c1",
+    "NC(=O)C1CCN(C=O)CC1": "NC(=O)C1CCN(C(=O)[Xe])CC1",
+    "O=Cc1ccccc1": "O=C([Xe])c1ccccc1,O=Cc1cccc([Xe])c1",
+    "NC(=O)C1CCN(C(=O)c2ccccc2)CC1": "NC(=O)C1CCN(C(=O)c2cccc([Xe])c2)CC1",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "C.C=O": "C.O=C[Xe]",
+    "C.NC=O": "C.NC(=O)[Xe],C[Xe].NC=O",
+    "Cc1ccccc1.NC=O": "Cc1cccc([Xe])c1.NC=O,Cc1ccccc1.NC(=O)[Xe]",
+    "C1CCNCC1.Cc1ccccc1": "Cc1ccccc1.[Xe]C1CCNCC1",
+    "NC(=O)C1CCNCC1.c1ccccc1": "NC(=O)C1CCNCC1.[Xe]c1ccccc1",
+    "NC=O.O=Cc1ccccc1": "NC=O.O=Cc1cccc([Xe])c1",
+    "O=C(c1ccccc1)N1CCCCC1": "O=C(c1cccc([Xe])c1)N1CCCCC1,O=C(c1ccccc1)N1CCC([Xe])CC1",
+    "NC=O.c1ccccc1": "NC=O.[Xe]c1ccccc1,NC(=O)[Xe].c1ccccc1",
+    "O=CN1CCCCC1": "O=CN1CCC([Xe])CC1,O=C([Xe])N1CCCCC1",
+    "C.O=CN1CCCCC1": "C.O=CN1CCC([Xe])CC1",
+    "C": "C[Xe]",
+    "C=O.NC=O": "NC=O.O=C[Xe]",
+    "Cc1ccccc1": "Cc1cccc([Xe])c1",
+    "C.NC(=O)C1CCNCC1": "C[Xe].NC(=O)C1CCNCC1,C.NC(=O)C1CCN([Xe])CC1",
+    "C1CCNCC1.c1ccccc1": "C1CCNCC1.[Xe]c1ccccc1,[Xe]C1CCNCC1.c1ccccc1",
+    "NC(=O)C1CCNCC1": "NC(=O)C1CCN([Xe])CC1"
+  },
+  "m0266a": {
+    "CO.c1nnco1": "[Xe],CO[Xe].c1nnco1",
+    "c1ccccc1": "[Xe],[Xe]c1ccccc1",
+    "COc1ccccc1.c1nnco1": "[Xe]",
+    "c1nnco1": "[Xe],[Xe]c1nnco1",
+    "c1ccccc1.c1nnco1": "[Xe]c1ccccc1-c1nnco1,[Xe],[Xe]c1ccccc1.c1nnco1",
+    "CO": "CO[Xe],[Xe]",
+    "COc1ccccc1": "[Xe],COc1ccccc1[Xe]",
+    "c1ccc(-c2nnco2)cc1": "[Xe]c1ccccc1-c1nnco1,[Xe]",
+    "COc1ccccc1-c1nnco1": "[Xe]"
+  },
+  "m0269a": {
+    "CCCS(N)(=O)=O": "CC([Xe])CS(N)(=O)=O",
+    "c1ccccc1": "[Xe]c1ccccc1"
+  },
+  "m0286a": {
+    "CC(N)=O": "CC(=O)N[Xe]",
+    "C": "C[Xe]",
+    "Cc1ccc2c(c1)OCO2": "Cc1cc2c(cc1[Xe])OCO2",
+    "c1ccc2c(c1)OCO2": "[Xe]c1ccc2c(c1)OCO2",
+    "CC(=O)Nc1ccc2c(c1)OCO2": "CC(=O)Nc1cc2c(cc1[Xe])OCO2"
+  },
+  "m0306a": {
+    "c1ccc2c(c1)CCCN2": "[Xe]c1ccc2c(c1)CCCN2",
+    "CN(C)C=O": "CN(C)C(=O)[Xe]"
+  },
+  "m0310a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "FC(F)(F)Oc1ccccc1": "FC(F)(F)Oc1ccccc1[Xe]",
+    "NC(N)=S": "NC(=S)N[Xe]",
+    "OC(F)(F)F": "FC(F)(F)O[Xe]",
+    "NC(=S)Nc1ccccc1": "NC(=S)Nc1ccccc1[Xe]"
+  },
+  "m0322a": {
+    "OCc1c[nH]nn1.c1ccccc1": "OCc1c[nH]nn1.[Xe]c1ccccc1,[Xe],OCc1cn(-c2ccc([Xe])cc2)nn1",
+    "OCc1c[nH]nn1": "[Xe],OCc1cn([Xe])nn1",
+    "CO.Clc1ccccc1": "Clc1ccccc1.OC[Xe],[Xe]",
+    "Clc1ccccc1": "[Xe],Clc1ccc([Xe])cc1",
+    "Cl.OCc1c[nH]nn1": "Cl[Xe].OCc1c[nH]nn1,[Xe]",
+    "Cl": "[Xe],Cl[Xe]",
+    "CO.c1ccccc1": "[Xe],OC[Xe].c1ccccc1,CO.[Xe]c1ccccc1",
+    "c1c[nH]nn1.c1ccccc1": "[Xe]c1ccccc1.c1c[nH]nn1,[Xe],[Xe]c1ccc(-n2ccnn2)cc1,[Xe]c1c[nH]nn1.c1ccccc1,[Xe]c1cn(-c2ccccc2)nn1",
+    "CO.Cl": "Cl.OC[Xe],[Xe],CO.Cl[Xe]",
+    "OCc1cn(-c2ccc(Cl)cc2)nn1": "[Xe]",
+    "c1ccccc1": "[Xe],[Xe]c1ccccc1",
+    "CO": "OC[Xe],[Xe]",
+    "Cl.c1c[nH]nn1": "Cl[Xe].c1c[nH]nn1,[Xe],Cl.[Xe]c1c[nH]nn1",
+    "Clc1ccc(-n2ccnn2)cc1": "Clc1ccc(-n2cc([Xe])nn2)cc1,[Xe]",
+    "Clc1ccccc1.c1c[nH]nn1": "Clc1ccccc1.[Xe]c1c[nH]nn1,Clc1ccc(-n2cc([Xe])nn2)cc1,[Xe]",
+    "Clc1ccccc1.OCc1c[nH]nn1": "[Xe]",
+    "c1c[nH]nn1": "[Xe]n1ccnn1,[Xe],[Xe]c1c[nH]nn1",
+    "c1ccc(-n2ccnn2)cc1": "[Xe],[Xe]c1ccc(-n2ccnn2)cc1,[Xe]c1cn(-c2ccccc2)nn1",
+    "OCc1cn(-c2ccccc2)nn1": "[Xe],OCc1cn(-c2ccc([Xe])cc2)nn1"
+  },
+  "m0332a": {
+    "c1ccccc1": "[Xe],[Xe]c1ccccc1",
+    "CCOc1ccccc1": "CCOc1ccccc1[Xe],[Xe]",
+    "CCOc1ccccc1N1CCNCC1": "[Xe]",
+    "c1ccc(N2CCNCC2)cc1": "[Xe]c1ccccc1N1CCNCC1,[Xe]",
+    "C1CNCCN1.c1ccccc1": "[Xe]c1ccccc1N1CCNCC1,C1CNCCN1.[Xe]c1ccccc1,[Xe]",
+    "C1CNCCN1.CCO": "C1CNCCN1.CCO[Xe],[Xe]",
+    "C1CNCCN1": "[Xe],[Xe]N1CCNCC1",
+    "C1CNCCN1.CCOc1ccccc1": "[Xe]",
+    "CCO": "CCO[Xe],[Xe]"
+  },
+  "m0354a": {
+    "c1c[nH]cn1": "[Xe]c1ncc[nH]1,[Xe]n1ccnc1",
+    "c1ccc(Cn2ccnc2)cc1": "[Xe]c1nccn1Cc1ccccc1,[Xe]c1cccc(Cn2ccnc2)c1",
+    "C#N.c1c[nH]cn1": "N#C[Xe].c1c[nH]cn1,C#N.[Xe]n1ccnc1,C#N.[Xe]c1ncc[nH]1",
+    "Cc1cccc(C#N)c1": "N#Cc1cccc(C[Xe])c1",
+    "C#N.Cc1ncc[nH]1": "Cc1ncc[nH]1.N#C[Xe],C#N.Cc1nccn1[Xe]",
+    "C.Cc1ccccc1": "C.Cc1cccc([Xe])c1",
+    "Cc1ncc[nH]1": "Cc1nccn1[Xe]",
+    "N#Cc1ccccc1": "N#Cc1cccc([Xe])c1",
+    "Cc1ncc[nH]1.c1ccccc1": "Cc1ncc[nH]1.[Xe]c1ccccc1",
+    "N#Cc1cccc(Cn2ccnc2)c1": "N#Cc1cccc(Cn2ccnc2[Xe])c1",
+    "c1c[nH]cn1.c1ccccc1": "[Xe]c1ncc[nH]1.c1ccccc1,[Xe]c1ccccc1.c1c[nH]cn1",
+    "C.c1ccccc1": "[Xe]Cc1ccccc1,Cc1cccc([Xe])c1,C[Xe].c1ccccc1,C.[Xe]c1ccccc1",
+    "C.N#Cc1ccccc1": "N#Cc1cccc(C[Xe])c1,C.N#Cc1cccc([Xe])c1,C[Xe].N#Cc1ccccc1",
+    "Cc1nccn1Cc1ccccc1": "Cc1nccn1Cc1cccc([Xe])c1",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "Cn1ccnc1": "Cn1ccnc1[Xe],[Xe]Cn1ccnc1",
+    "Cc1nccn1C": "Cc1nccn1C[Xe]",
+    "C#N.Cn1ccnc1": "C#N.Cn1ccnc1[Xe]",
+    "C": "C[Xe]",
+    "C.C": "C.C[Xe]",
+    "C#N": "N#C[Xe]",
+    "N#Cc1ccccc1.c1c[nH]cn1": "N#Cc1ccccc1.[Xe]c1ncc[nH]1",
+    "C.C#N": "C#N.C[Xe],C.N#C[Xe]",
+    "Cc1ccccc1": "[Xe]Cc1ccccc1,Cc1cccc([Xe])c1"
+  },
+  "m0358a": {
+    "C": "C[Xe]",
+    "NS(=O)(=O)c1ccc2c(c1)NCCC2": "NS(=O)(=O)c1ccc2c(c1)N([Xe])CCC2",
+    "N[SH](=O)=O": "NS(=O)(=O)[Xe]",
+    "c1ccc2c(c1)CCCN2": "[Xe]N1CCCc2ccccc21,[Xe]c1ccc2c(c1)NCCC2",
+    "CN1CCCc2ccccc21": "CN1CCCc2ccc([Xe])cc21"
+  },
+  "m0358b": {
+    "C": "C[Xe]",
+    "NS(=O)(=O)c1ccc2c(c1)NCCC2": "NS(=O)(=O)c1ccc2c(c1)N([Xe])CCC2",
+    "N[SH](=O)=O": "NS(=O)(=O)[Xe]",
+    "c1ccc2c(c1)CCCN2": "[Xe]N1CCCc2ccccc21,[Xe]c1ccc2c(c1)NCCC2",
+    "CN1CCCc2ccccc21": "CN1CCCc2ccc([Xe])cc21"
+  },
+  "m0379a": {
+    "Cc1cc(N2CCNCC2)nc(C)n1": "[Xe]",
+    "Cc1ccncn1": "Cc1ccnc([Xe])n1,[Xe],Cc1cc([Xe])ncn1",
+    "C1CNCCN1.Cc1ccncn1": "C1CNCCN1.Cc1ccnc([Xe])n1,Cc1cc(N2CCNCC2)nc([Xe])n1,[Xe]",
+    "C": "[Xe],C[Xe]",
+    "C1CNCCN1.Cc1ccnc(C)n1": "[Xe]",
+    "Cc1nccc(N2CCNCC2)n1": "[Xe],Cc1nc([Xe])cc(N2CCNCC2)n1",
+    "C1CNCCN1.Cc1ncccn1": "C1CNCCN1.Cc1nccc([Xe])n1,[Xe],Cc1nc([Xe])cc(N2CCNCC2)n1",
+    "C.C": "[Xe]",
+    "Cc1cc(N2CCNCC2)ncn1": "Cc1cc(N2CCNCC2)nc([Xe])n1,[Xe]",
+    "Cc1ncccn1": "[Xe],Cc1nccc([Xe])n1",
+    "C.C1CNCCN1": "C1CNCCN1.C[Xe],[Xe]",
+    "C1CNCCN1": "[Xe],[Xe]N1CCNCC1",
+    "Cc1ccnc(C)n1": "Cc1cc([Xe])nc(C)n1,[Xe]",
+    "c1cc(N2CCNCC2)ncn1": "[Xe]c1nccc(N2CCNCC2)n1,[Xe]c1cc(N2CCNCC2)ncn1,[Xe]",
+    "C.C.C1CNCCN1": "[Xe]",
+    "C1CNCCN1.c1cncnc1": "[Xe]c1nccc(N2CCNCC2)n1,[Xe]c1cc(N2CCNCC2)ncn1,C1CNCCN1.[Xe]c1ccncn1,C1CNCCN1.[Xe]c1ncccn1,[Xe]",
+    "c1cncnc1": "[Xe]c1ncccn1,[Xe]c1ccncn1,[Xe]"
+  },
+  "m0393a": {
+    "C1COCCN1": "[Xe]C1CNCCO1",
+    "CNC=O": "CNC(=O)[Xe]"
+  },
+  "m0401a": {
+    "C1CCNCC1.c1ncon1": "C1CCNCC1.[Xe]c1ncon1,[Xe]c1noc(C2CCNCC2)n1,[Xe]",
+    "c1ncon1": "[Xe]c1ncon1,[Xe],[Xe]c1ncno1",
+    "CNC": "CN(C)[Xe],[Xe]",
+    "CN(C)c1ncon1": "CN(C)c1noc([Xe])n1,[Xe]",
+    "c1noc(C2CCNCC2)n1": "[Xe]c1noc(C2CCNCC2)n1,[Xe]",
+    "C1CCNCC1.CN(C)c1ncon1": "[Xe]",
+    "CN(C)c1noc(C2CCNCC2)n1": "[Xe]",
+    "C1CCNCC1": "[Xe],[Xe]C1CCNCC1",
+    "C1CCNCC1.CNC": "C1CCNCC1.CN(C)[Xe],[Xe]"
+  },
+  "m0404a": {
+    "C1CNCCNC1.Cc1ncsn1": "[Xe]",
+    "c1ncsn1": "[Xe]c1ncsn1,[Xe],[Xe]c1ncns1",
+    "C.C1CNCCNC1": "[Xe],C1CNCCNC1.C[Xe]",
+    "C": "[Xe],C[Xe]",
+    "Cc1ncsn1": "Cc1nsc([Xe])n1,[Xe]",
+    "Cc1nsc(N2CCCNCC2)n1": "[Xe]",
+    "c1nsc(N2CCCNCC2)n1": "[Xe],[Xe]c1nsc(N2CCCNCC2)n1",
+    "C1CNCCNC1.c1ncsn1": "C1CNCCNC1.[Xe]c1ncsn1,[Xe],[Xe]c1nsc(N2CCCNCC2)n1",
+    "C1CNCCNC1": "[Xe],[Xe]N1CCCNCC1"
+  },
+  "m0407a": {
+    "N": "N[Xe]",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "N.N[SH](=O)=O": "N.O=[SH](=O)N[Xe]",
+    "N.c1ccncc1": "N[Xe].c1ccncc1,N.[Xe]c1ccccn1",
+    "N[SH](=O)=O": "O=[SH](=O)N[Xe],NS(=O)(=O)[Xe]",
+    "NS(=O)(=O)c1ccccc1": "O=S(=O)(N[Xe])c1ccccc1,NS(=O)(=O)c1ccc([Xe])cc1",
+    "O=[SH](=O)Nc1ccccn1": "O=S(=O)([Xe])Nc1ccccn1",
+    "c1ccccc1.c1ccncc1": "[Xe]c1ccccc1.c1ccncc1",
+    "Nc1ccc(S(N)(=O)=O)cc1": "Nc1ccc(S(=O)(=O)N[Xe])cc1",
+    "Nc1ccccc1": "Nc1ccc([Xe])cc1",
+    "c1ccncc1": "[Xe]c1ccccn1",
+    "O=S(=O)(Nc1ccccn1)c1ccccc1": "O=S(=O)(Nc1ccccn1)c1ccc([Xe])cc1"
+  },
+  "m0409a": {
+    "c1ccc2c(c1)CNC2": "[Xe]c1ccc2c(c1)CNC2,[Xe]N1Cc2ccccc2C1",
+    "N": "N[Xe]",
+    "Nc1ccc2c(c1)CNC2": "Nc1ccc2c(c1)CN([Xe])C2",
+    "CC=O": "CC(=O)[Xe]",
+    "CC(=O)N1Cc2ccccc2C1": "CC(=O)N1Cc2ccc([Xe])cc2C1"
+  },
+  "m0424a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "N[SH](=O)=O": "NS(=O)(=O)[Xe]",
+    "NS(=O)(=O)c1ccccc1": "NS(=O)(=O)c1ccc([Xe])cc1",
+    "CNC(=O)c1ccccc1": "CNC(=O)c1ccc([Xe])cc1",
+    "CNC=O": "CNC(=O)[Xe]"
+  },
+  "m0455a": {
+    "CCc1nccs1": "CCc1ncc([Xe])s1",
+    "CNCc1cncs1": "CNCc1cnc([Xe])s1",
+    "CNC": "CNC[Xe]",
+    "CC": "CC[Xe]",
+    "c1cscn1": "[Xe]c1cncs1,[Xe]c1nccs1"
+  },
+  "m0457a": {
+    "NCC1CCCO1": "[Xe]NCC1CCCO1",
+    "C1CCOC1": "[Xe]C1CCCO1",
+    "CNc1ccncc1": "[Xe]CNc1ccncc1",
+    "CN": "NC[Xe],CN[Xe]",
+    "c1ccncc1": "[Xe]c1ccncc1"
+  },
+  "m0468a": {
+    "c1ccc2[nH]cnc2c1": "[Xe]c1nc2ccccc2[nH]1",
+    "CS(C)(=O)=O": "CS(=O)(=O)C[Xe]"
+  },
+  "m0469a": {
+    "C1CCCC1": "[Xe]C1CCCC1,[Xe]",
+    "C1CCCC1.CCO": "C1CCCC1.CC(O)[Xe],[Xe]",
+    "C1CCCC1.c1cn[nH]c1": "C1CCCC1.[Xe]c1cn[nH]c1,[Xe]c1cnn(C2CCCC2)c1,[Xe]",
+    "CC(O)c1cnn(C2CCCC2)c1": "[Xe]",
+    "c1cn[nH]c1": "[Xe]n1cccn1,[Xe],[Xe]c1cn[nH]c1",
+    "C1CCCC1.CC(O)c1cn[nH]c1": "[Xe]",
+    "CC(O)c1cn[nH]c1": "[Xe],CC(O)c1cnn([Xe])c1",
+    "c1cnn(C2CCCC2)c1": "[Xe]c1cnn(C2CCCC2)c1,[Xe]",
+    "CCO": "CC(O)[Xe],[Xe]"
+  },
+  "m0470a": {
+    "C1CCNCC1": "[Xe]C1CCNCC1",
+    "CNS(C)(=O)=O": "CS(=O)(=O)NC[Xe]"
+  },
+  "m0471a": {},
+  "m0472a": {
+    "CC(N)=O": "CC(=O)N[Xe]",
+    "c1ccc2c(c1)CCCN2": "[Xe]C1CNc2ccccc2C1"
+  },
+  "m0474a": {
+    "CNS(C)(=O)=O": "CNS(=O)(=O)C[Xe]",
+    "c1cnoc1": "[Xe]c1ccno1,[Xe]c1ccon1",
+    "C": "C[Xe]",
+    "CNS(=O)(=O)Cc1ccon1": "CNS(=O)(=O)Cc1cc([Xe])on1",
+    "Cc1ccno1": "Cc1cc([Xe])no1"
+  },
+  "m0501a": {},
+  "m0514a": {
+    "F.O": "F.O[Xe]",
+    "O=C1CCCN1": "O=C1NCCC1[Xe],O=C1CCCN1[Xe]",
+    "C.O": "C.O[Xe]",
+    "CN1CCCC1=O.F": "CN1CCC([Xe])C1=O.F,CN1CCCC1=O.F[Xe]",
+    "C.F": "C[Xe].F,C.F[Xe]",
+    "CN1CCCC1=O.c1ccccc1": "CN1CCCC1=O.[Xe]c1ccccc1",
+    "CN1CCC(O)C1=O": "CN1CCC(O[Xe])C1=O",
+    "C.Oc1ccccc1": "C.Oc1cccc([Xe])c1",
+    "O=C1CCCN1.c1ccccc1": "O=C1CCCN1.[Xe]c1ccccc1,O=C1CCCN1[Xe].c1ccccc1",
+    "F.O=C1CCCN1": "F.O=C1NCCC1[Xe],F.O=C1CCCN1[Xe],F[Xe].O=C1CCCN1",
+    "F.O=C1NCCC1O": "F.O=C1C(O)CCN1[Xe]",
+    "C.Fc1ccccc1": "C[Xe].Fc1ccccc1,C.Fc1cccc([Xe])c1",
+    "O=C1NCCC1Oc1ccccc1": "O=C1C(Oc2ccccc2)CCN1[Xe],O=C1NCCC1Oc1cccc([Xe])c1",
+    "C.c1ccccc1": "C[Xe].c1ccccc1,C.[Xe]c1ccccc1",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "Oc1ccccc1": "[Xe]Oc1ccccc1,Oc1cccc([Xe])c1",
+    "Oc1cccc(F)c1": "Fc1cccc(O[Xe])c1",
+    "O=C1NCCC1O": "O=C1NCCC1O[Xe],O=C1C(O)CCN1[Xe]",
+    "CN1CCC(Oc2ccccc2)C1=O": "CN1CCC(Oc2cccc([Xe])c2)C1=O",
+    "C": "C[Xe]",
+    "Fc1ccccc1": "Fc1cccc([Xe])c1",
+    "F": "F[Xe]",
+    "O": "O[Xe]",
+    "O=C1NCCC1Oc1cccc(F)c1": "O=C1C(Oc2cccc(F)c2)CCN1[Xe]",
+    "CN1CCCC1=O": "CN1CCC([Xe])C1=O",
+    "Fc1ccccc1.O=C1CCCN1": "Fc1ccccc1.O=C1CCCN1[Xe]"
+  },
+  "m0519a": {
+    "CCNC1CCNCC1": "CCNC1CCN([Xe])CC1,[Xe]",
+    "CCN": "[Xe],CCN[Xe]",
+    "CCNC1CCN(c2ccncc2)CC1": "[Xe]",
+    "c1cc(N2CCCCC2)ccn1": "[Xe],[Xe]C1CCN(c2ccncc2)CC1",
+    "CCN.c1ccncc1": "CCN[Xe].c1ccncc1,[Xe]",
+    "CCNC1CCNCC1.c1ccncc1": "[Xe]",
+    "C1CCNCC1.c1ccncc1": "[Xe]C1CCNCC1.c1ccncc1,[Xe],[Xe]C1CCN(c2ccncc2)CC1",
+    "C1CCNCC1": "[Xe]N1CCCCC1,[Xe],[Xe]C1CCNCC1",
+    "c1ccncc1": "[Xe]c1ccncc1,[Xe]"
+  },
+  "m0533a": {
+    "C": "C[Xe]",
+    "C.c1cscn1": "C.[Xe]c1nccs1,C[Xe].c1cscn1",
+    "CNc1nccs1": "[Xe]CNc1nccs1",
+    "CN": "NC[Xe],CN[Xe]",
+    "c1cscn1": "[Xe]c1nccs1",
+    "CN1CCOCC1": "CN1CCOC([Xe])C1",
+    "C.CN": "C.CN[Xe]",
+    "CN1CCOC(CN)C1": "CN1CCOC(CN[Xe])C1",
+    "C1COCCN1": "[Xe]C1CNCCO1,[Xe]N1CCOCC1",
+    "c1csc(NCC2CNCCO2)n1": "[Xe]N1CCOC(CNc2nccs2)C1",
+    "C1COCCN1.c1cscn1": "[Xe]N1CCOCC1.c1cscn1",
+    "NCC1CNCCO1": "NCC1CN([Xe])CCO1,[Xe]NCC1CNCCO1"
+  },
+  "m0536a": {
+    "Cc1n[nH]c2cnncc12": "Cc1nn([Xe])c2cnncc12,Cc1n[nH]c2c([Xe])nncc12",
+    "Oc1nncc2cn[nH]c12": "Oc1nncc2c([Xe])n[nH]c12,Oc1nncc2cnn([Xe])c12",
+    "C": "C[Xe]",
+    "Cn1ncc2cnnc(O)c21": "Cn1nc([Xe])c2cnnc(O)c21",
+    "Cc1nn(C)c2cnncc12": "Cc1nn(C)c2c([Xe])nncc12",
+    "O": "O[Xe]",
+    "Cc1n[nH]c2c(O)nncc12": "Cc1nn([Xe])c2c(O)nncc12",
+    "Cn1ncc2cnncc21": "Cn1ncc2cnnc([Xe])c21,Cn1nc([Xe])c2cnncc21",
+    "c1nncc2[nH]ncc12": "[Xe]c1n[nH]c2cnncc12,[Xe]c1nncc2cn[nH]c12,[Xe]n1ncc2cnncc21"
+  },
+  "m0549a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "CCNS(C)(=O)=O": "CS(=O)(=O)NCC[Xe]"
+  },
+  "m0573a": {
+    "CN(C)C=O": "CN(C)C(=O)[Xe]",
+    "C1COCC2(CCOC2)N1": "[Xe]N1CCOCC12CCOC2"
+  },
+  "m0579a": {
+    "C=O.NC=O": "NC=O.O=C[Xe]",
+    "NC=O.c1ccoc1": "NC(=O)[Xe].c1ccoc1,NC=O.[Xe]c1ccco1",
+    "NC(=O)N1CCNCC1": "NC(=O)N1CCN([Xe])CC1",
+    "O=CN1CCNCC1": "O=C([Xe])N1CCNCC1,O=CN1CCN([Xe])CC1",
+    "C1CNCCN1": "[Xe]N1CCNCC1",
+    "NC=O": "NC(=O)[Xe]",
+    "c1ccoc1": "[Xe]c1ccco1",
+    "C1CNCCN1.c1ccoc1": "[Xe]N1CCNCC1.c1ccoc1",
+    "O=Cc1ccco1": "O=C([Xe])c1ccco1",
+    "NC(=O)N1CCN(C=O)CC1": "NC(=O)N1CCN(C(=O)[Xe])CC1",
+    "O=C(c1ccco1)N1CCNCC1": "O=C(c1ccco1)N1CCN([Xe])CC1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0594a": {
+    "CC#CCNC": "CC#CCN(C)[Xe]",
+    "O=S1(=O)CCCCC1": "O=S1(=O)CCC([Xe])CC1"
+  },
+  "m0594b": {
+    "CC#CCNC": "CC#CCN(C)[Xe]",
+    "O=S1(=O)CCCCC1": "O=S1(=O)CCC([Xe])CC1"
+  },
+  "m0597a": {
+    "COC1CCCN(Cc2cncs2)C1": "COC1CN(Cc2cncs2)CCC1[Xe]",
+    "CC1CCNCC1": "CC1CCN([Xe])CC1,CC1CCNCC1[Xe]",
+    "CC1CCN(C)CC1": "CC1CCN(C)CC1[Xe],CC1CCN(C[Xe])CC1",
+    "C1CCNCC1": "[Xe]C1CCNCC1,[Xe]N1CCCCC1,[Xe]C1CCCNC1",
+    "COC1CCCNC1": "COC1CNCCC1[Xe],COC1CCCN([Xe])C1",
+    "C.C.CO": "C.CO.C[Xe]",
+    "Cc1cncs1": "[Xe]Cc1cncs1",
+    "c1cscn1": "[Xe]c1cncs1",
+    "COC1CN(C)CCC1C": "COC1CN(C[Xe])CCC1C",
+    "C.CO": "CO.C[Xe]",
+    "CO": "CO[Xe]",
+    "COC1CCCN(C)C1": "COC1CN(C)CCC1[Xe],COC1CCCN(C[Xe])C1",
+    "COC1CCCNC1.c1cscn1": "COC1CNCCC1[Xe].c1cscn1",
+    "C1CCNCC1.c1cscn1": "[Xe]C1CCCNC1.c1cscn1,[Xe]C1CCNCC1.c1cscn1",
+    "C.CO.c1cscn1": "C.CO.[Xe]c1cncs1",
+    "C": "C[Xe]",
+    "C.c1cscn1": "[Xe]Cc1cncs1,C.[Xe]c1cncs1,C[Xe].c1cscn1",
+    "c1ncc(CN2CCCCC2)s1": "[Xe]C1CCCN(Cc2cncs2)C1,[Xe]C1CCN(Cc2cncs2)CC1",
+    "COC1CNCCC1C": "COC1CN([Xe])CCC1C",
+    "C.C": "C.C[Xe]",
+    "CN1CCCCC1": "CN1CCCC([Xe])C1,CN1CCC([Xe])CC1,[Xe]CN1CCCCC1",
+    "CO.c1cscn1": "CO.[Xe]c1cncs1,CO[Xe].c1cscn1",
+    "CC1CCN(Cc2cncs2)CC1": "CC1CCN(Cc2cncs2)CC1[Xe]",
+    "CC1CCNCC1.c1cscn1": "CC1CCNCC1[Xe].c1cscn1"
+  },
+  "m0604a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "CNC(=O)COC": "COCC(=O)NC[Xe]"
+  },
+  "m0606a": {
+    "CC(NC=O)c1cccnc1": "CC(NC(=O)[Xe])c1cccnc1",
+    "CCNC(=O)C1CC1": "CC([Xe])NC(=O)C1CC1",
+    "CCNC=O": "CCNC(=O)[Xe],CC([Xe])NC=O",
+    "c1ccncc1": "[Xe]c1cccnc1",
+    "C1CC1": "[Xe]C1CC1"
+  },
+  "m0609a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "C": "C[Xe]",
+    "CCNC(C)=O": "CC(=O)NCC[Xe]",
+    "Cc1ccccc1": "Cc1ccccc1[Xe]",
+    "CC(=O)NCCc1ccccc1": "CC(=O)NCCc1ccccc1[Xe]"
+  },
+  "m0611a": {
+    "C1CCNC1.CO": "CO.[Xe]N1CCCC1,C1CCNC1.CO[Xe]",
+    "COC1CNC1": "COC1CN([Xe])C1",
+    "O=[SH2]=O": "O=[SH](=O)[Xe]",
+    "CO": "CO[Xe]",
+    "C1CCNC1": "[Xe]N1CCCC1",
+    "C1CCNC1.C1CNC1": "C1CCNC1.[Xe]C1CNC1",
+    "COC1CN([SH](=O)=O)C1": "COC1CN(S(=O)(=O)[Xe])C1",
+    "O=[SH](=O)N1CCCC1": "O=S(=O)([Xe])N1CCCC1",
+    "O=[SH](=O)N1CCC1": "O=S(=O)([Xe])N1CCC1,O=[SH](=O)N1CC([Xe])C1",
+    "C1CNC1": "[Xe]N1CCC1,[Xe]C1CNC1",
+    "CO.O=[SH2]=O": "CO.O=[SH](=O)[Xe]",
+    "O=S(=O)(N1CCCC1)N1CCC1": "O=S(=O)(N1CCCC1)N1CC([Xe])C1"
+  },
+  "m0615a": {
+    "FC1=CCCNC1": "FC1=CCCN([Xe])C1",
+    "O=CN1CCOCC1": "O=C([Xe])N1CCOCC1",
+    "C1=CCNCC1.C1COCCN1": "C1COCCN1.[Xe]C1=CCCNC1",
+    "F": "F[Xe]",
+    "O=CN1CCC=C(F)C1": "O=C([Xe])N1CCC=C(F)C1",
+    "O=C(N1CC=CCC1)N1CCOCC1": "O=C(N1CCOCC1)N1CCC=C([Xe])C1",
+    "C1=CCNCC1": "[Xe]N1CC=CCC1,[Xe]C1=CCCNC1",
+    "O=CN1CC=CCC1": "O=C([Xe])N1CC=CCC1,O=CN1CCC=C([Xe])C1",
+    "C=O.F": "F.O=C[Xe]",
+    "C1COCCN1": "[Xe]N1CCOCC1",
+    "C1COCCN1.F": "C1COCCN1.F[Xe],F.[Xe]N1CCOCC1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0631a": {
+    "C": "C[Xe]",
+    "O=S1(=O)CCNCC1": "O=S1(=O)CCN([Xe])CC1",
+    "Cc1ccco1": "[Xe]Cc1ccco1",
+    "c1ccoc1": "[Xe]c1ccco1",
+    "CN1CCS(=O)(=O)CC1": "O=S1(=O)CCN(C[Xe])CC1"
+  },
+  "m0638a": {
+    "CCn1cc(NC=O)cn1": "CCn1cc(NC(=O)[Xe])cn1",
+    "NC(=O)C1CCC1": "O=C(N[Xe])C1CCC1",
+    "C1CCC1": "[Xe]C1CCC1",
+    "CC": "CC[Xe]",
+    "c1cn[nH]c1": "[Xe]n1cccn1,[Xe]c1cn[nH]c1",
+    "C1CCC1.CC": "C1CCC1.CC[Xe],CC.[Xe]C1CCC1",
+    "NC=O": "O=CN[Xe],NC(=O)[Xe]",
+    "CCn1cccn1": "CCn1cc([Xe])cn1",
+    "C1CCC1.c1cn[nH]c1": "C1CCC1.[Xe]n1cccn1",
+    "O=C(Nc1cn[nH]c1)C1CCC1": "O=C(Nc1cnn([Xe])c1)C1CCC1",
+    "CC.NC=O": "CC.NC(=O)[Xe]",
+    "O=CNc1cn[nH]c1": "O=C([Xe])Nc1cn[nH]c1,O=CNc1cnn([Xe])c1"
+  },
+  "m0641a": {
+    "C": "C[Xe]",
+    "c1ncon1": "[Xe]c1ncno1,[Xe]c1ncon1",
+    "O=c1cccc[nH]1.c1ncon1": "O=c1cccc[nH]1.[Xe]c1ncno1",
+    "CCc1nc(C)no1": "CCc1nc(C[Xe])no1",
+    "CC.O=c1cccc[nH]1": "CC.O=c1ccccn1[Xe],CC[Xe].O=c1cccc[nH]1",
+    "CC": "CC[Xe]",
+    "Cn1ccccc1=O": "O=c1ccccn1C[Xe]",
+    "O=c1cccc[nH]1": "O=c1ccccn1[Xe]",
+    "CCc1ncno1": "CCc1nc([Xe])no1",
+    "C.CC": "CC.C[Xe]",
+    "Cc1ncon1": "Cc1noc([Xe])n1,[Xe]Cc1ncon1",
+    "O=c1ccccn1Cc1ncon1": "O=c1ccccn1Cc1noc([Xe])n1"
+  },
+  "m0642a": {
+    "C1CCCC2(CC1)CCCNC2": "[Xe]N1CCCC2(CCCCCC2)C1",
+    "CC=O": "CC(=O)[Xe]"
+  },
+  "m0658a": {
+    "CC1COC(C)CN1": "CC1CN([Xe])C(C)CO1",
+    "C.C.c1cnsn1": "C.C.[Xe]c1cnsn1",
+    "C1COCCN1.c1cnsn1": "[Xe]C1COCCN1.c1cnsn1,[Xe]C1CNCCO1.c1cnsn1",
+    "C.C.C=O": "C.C.O=C[Xe]",
+    "C=O": "O=C[Xe]",
+    "O=Cc1cnsn1": "O=C([Xe])c1cnsn1",
+    "CC1CN(C=O)CCO1": "CC1CN(C=O)C([Xe])CO1,CC1CN(C(=O)[Xe])CCO1",
+    "C.c1cnsn1": "C.[Xe]c1cnsn1,C[Xe].c1cnsn1",
+    "C1COCCN1": "[Xe]C1CNCCO1,[Xe]C1COCCN1,[Xe]N1CCOCC1",
+    "CC1CN(C(=O)c2cnsn2)CCO1": "CC1CN(C(=O)c2cnsn2)C([Xe])CO1",
+    "CC1COCCN1": "CC1COC([Xe])CN1,CC1COCCN1[Xe]",
+    "C.C=O": "C.O=C[Xe]",
+    "c1cnsn1": "[Xe]c1cnsn1",
+    "CC1COCCN1C(=O)c1cnsn1": "CC1COC([Xe])CN1C(=O)c1cnsn1",
+    "CC1CNCCO1.c1cnsn1": "CC1CNC([Xe])CO1.c1cnsn1",
+    "CC1COCCN1.c1cnsn1": "CC1COC([Xe])CN1.c1cnsn1",
+    "C": "C[Xe]",
+    "O=CN1CCOCC1": "O=CN1CCOCC1[Xe],O=CN1CCOC([Xe])C1,O=C([Xe])N1CCOCC1",
+    "O=C(c1cnsn1)N1CCOCC1": "O=C(c1cnsn1)N1CCOCC1[Xe],O=C(c1cnsn1)N1CCOC([Xe])C1",
+    "CC1CN(C=O)C(C)CO1": "CC1CN(C(=O)[Xe])C(C)CO1",
+    "CC1COCCN1C=O": "CC1COC([Xe])CN1C=O,CC1COCCN1C(=O)[Xe]",
+    "CC1CNCCO1": "CC1CNC([Xe])CO1,CC1CN([Xe])CCO1"
+  },
+  "m0659a": {
+    "O=CN1CCCCCC1": "O=C([Xe])N1CCCCCC1",
+    "C1CCCNCC1": "[Xe]N1CCCCCC1",
+    "O=Cc1ccc2c(c1)OCO2": "O=C([Xe])c1ccc2c(c1)OCO2",
+    "c1ccc2c(c1)OCO2": "[Xe]c1ccc2c(c1)OCO2",
+    "C=O": "O=C[Xe]"
+  },
+  "m0664a": {
+    "CC(=O)Nc1ccccc1": "CC(=O)Nc1ccc([Xe])cc1",
+    "CC(N)=O": "CC(=O)N[Xe]",
+    "C": "C[Xe]",
+    "C1COCCN1.c1ccccc1": "C1COCCN1.[Xe]c1ccccc1",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "CC(=O)Nc1ccc(C)cc1": "CC(=O)Nc1ccc(C[Xe])cc1",
+    "CN1CCOCC1": "[Xe]CN1CCOCC1",
+    "C1COCCN1.CC(N)=O": "CC(N)=O.[Xe]N1CCOCC1,C1COCCN1.CC(=O)N[Xe]",
+    "c1ccc(CN2CCOCC2)cc1": "[Xe]c1ccc(CN2CCOCC2)cc1",
+    "Cc1ccccc1": "[Xe]Cc1ccccc1,Cc1ccc([Xe])cc1",
+    "C1COCCN1": "[Xe]N1CCOCC1",
+    "C.CC(N)=O": "CC(N)=O.C[Xe]"
+  },
+  "m0666a": {
+    "CCC.c1ccsc1": "CCC.[Xe]c1cccs1,CC(C)[Xe].c1ccsc1",
+    "O=Cc1cccs1": "O=C([Xe])c1cccs1",
+    "O=CN1CCNCC1": "O=C([Xe])N1CCNCC1,O=CN1CCN([Xe])CC1",
+    "O=C(c1cccs1)N1CCNCC1": "O=C(c1cccs1)N1CCN([Xe])CC1",
+    "C1CNCCN1": "[Xe]N1CCNCC1",
+    "CC(C)N1CCNCC1": "CC(C)N1CCN([Xe])CC1",
+    "CCC": "CC(C)[Xe]",
+    "C=O.CCC": "CCC.O=C[Xe]",
+    "CC(C)N1CCN(C=O)CC1": "CC(C)N1CCN(C(=O)[Xe])CC1",
+    "C1CNCCN1.c1ccsc1": "[Xe]N1CCNCC1.c1ccsc1",
+    "c1ccsc1": "[Xe]c1cccs1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0677a": {
+    "C1CCOC1.Cl": "C1CCOC1.Cl[Xe],Cl.[Xe]C1CCCO1",
+    "Cc1ccccc1NC(=O)C1CCCO1": "Cc1c([Xe])cccc1NC(=O)C1CCCO1",
+    "NC(=O)C1CCCO1": "O=C(N[Xe])C1CCCO1",
+    "O=C(Nc1cccc(Cl)c1)C1CCCO1": "O=C(Nc1cccc(Cl)c1[Xe])C1CCCO1",
+    "Cc1ccccc1NC=O": "Cc1c([Xe])cccc1NC=O,Cc1ccccc1NC(=O)[Xe]",
+    "NC=O": "O=CN[Xe],NC(=O)[Xe]",
+    "O=CNc1ccccc1": "O=CNc1cccc([Xe])c1,O=CNc1ccccc1[Xe],O=C([Xe])Nc1ccccc1",
+    "Cc1ccccc1Cl": "Cc1c(Cl)cccc1[Xe]",
+    "Cc1c(Cl)cccc1NC=O": "Cc1c(Cl)cccc1NC(=O)[Xe]",
+    "O=C(Nc1ccccc1)C1CCCO1": "O=C(Nc1ccccc1[Xe])C1CCCO1,O=C(Nc1cccc([Xe])c1)C1CCCO1",
+    "Clc1ccccc1": "Clc1ccccc1[Xe],Clc1cccc([Xe])c1",
+    "C1CCOC1.Cc1ccccc1": "C1CCOC1.Cc1ccccc1[Xe]",
+    "Cl.NC=O": "Cl.NC(=O)[Xe]",
+    "Cl": "Cl[Xe]",
+    "C.Cl.NC=O": "C.Cl.NC(=O)[Xe]",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "C1CCOC1.Clc1ccccc1": "C1CCOC1.Clc1ccccc1[Xe]",
+    "C1CCOC1": "[Xe]C1CCCO1",
+    "C.NC=O": "C.NC(=O)[Xe]",
+    "C.C1CCOC1.Cl": "C.Cl.[Xe]C1CCCO1",
+    "C1CCOC1.c1ccccc1": "C1CCOC1.[Xe]c1ccccc1",
+    "C": "C[Xe]",
+    "C.C1CCOC1": "C1CCOC1.C[Xe],C.[Xe]C1CCCO1",
+    "Cc1ccccc1": "Cc1ccccc1[Xe]",
+    "O=CNc1cccc(Cl)c1": "O=C([Xe])Nc1cccc(Cl)c1,O=CNc1cccc(Cl)c1[Xe]"
+  },
+  "m0678a": {
+    "C1CC2CNCC2C1": "[Xe]N1CC2CCCC2C1",
+    "O=CCOC(F)F": "O=C([Xe])COC(F)F"
+  },
+  "m0717a": {
+    "C1CCC2(CCCC2)OC1": "[Xe]C1CCOC2(CCCC2)C1",
+    "CS(N)(=O)=O": "CS(=O)(=O)N[Xe]"
+  },
+  "m0718a": {
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "CCNS(C)(=O)=O": "CC([Xe])NS(C)(=O)=O",
+    "Clc1ccccc1": "Clc1ccccc1[Xe]",
+    "Cl": "Cl[Xe]",
+    "CC(NS(C)(=O)=O)c1ccccc1": "CC(NS(C)(=O)=O)c1ccccc1[Xe]"
+  },
+  "m0728a": {
+    "CNC": "CN(C)[Xe]",
+    "c1ccncc1": "[Xe]c1ccncc1"
+  },
+  "m0731a": {
+    "CN(CC=O)S(C)(=O)=O": "CN(CC(=O)[Xe])S(C)(=O)=O",
+    "C1CCNCC1": "[Xe]N1CCCCC1"
+  },
+  "m0733a": {
+    "CC(NS(C)(=O)=O)c1cn[nH]c1": "CC(NS(C)(=O)=O)c1cnn([Xe])c1,CC(NS(C)(=O)=O)c1cn[nH]c1[Xe]",
+    "C": "C[Xe]",
+    "CCNS(C)(=O)=O": "CC([Xe])NS(C)(=O)=O",
+    "Cc1[nH]ncc1C(C)NS(C)(=O)=O": "Cc1c(C(C)NS(C)(=O)=O)cnn1[Xe]",
+    "c1cn[nH]c1": "[Xe]n1cccn1,[Xe]c1cn[nH]c1,[Xe]c1ccn[nH]1",
+    "Cn1cccn1": "Cn1cc([Xe])cn1,Cn1nccc1[Xe]",
+    "CC(NS(C)(=O)=O)c1cnn(C)c1": "CC(NS(C)(=O)=O)c1cnn(C)c1[Xe]",
+    "Cc1ccn[nH]1": "Cc1[nH]ncc1[Xe],Cc1ccnn1[Xe]",
+    "Cc1ccnn1C": "Cc1c([Xe])cnn1C"
+  },
+  "m0743a": {
+    "CS(=O)(=O)NC1CCCNC1": "CS(=O)(=O)NC1CCCN([Xe])C1",
+    "CCC(=O)N1CCCCC1": "CCC(=O)N1CCCC([Xe])C1",
+    "CS(N)(=O)=O": "CS(=O)(=O)N[Xe]",
+    "C1CCNCC1": "[Xe]N1CCCCC1,[Xe]C1CCCNC1",
+    "CCC=O": "CCC(=O)[Xe]"
+  },
+  "m0744a": {
+    "FC(F)Oc1ccccc1": "FC(F)Oc1ccccc1[Xe]",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "N[SH](=O)=O": "NS(=O)(=O)[Xe]",
+    "NS(=O)(=O)c1ccccc1": "NS(=O)(=O)c1ccccc1[Xe]",
+    "OC(F)F": "FC(F)O[Xe]"
+  },
+  "m0746a": {
+    "C1CCNC1": "[Xe]N1CCCC1",
+    "c1cn[nH]c1": "[Xe]c1cn[nH]c1",
+    "O=CN1CCCC1": "O=C([Xe])N1CCCC1",
+    "O=Cc1cn[nH]c1": "O=C([Xe])c1cn[nH]c1",
+    "C=O": "O=C[Xe]"
+  },
+  "m0770a": {
+    "C": "C[Xe]",
+    "c1ccccc1": "[Xe]c1ccccc1",
+    "O=C1CNCC(=O)N1": "O=C1CN([Xe])CC(=O)N1",
+    "CN1CC(=O)NC(=O)C1": "O=C1CN(C[Xe])CC(=O)N1",
+    "Cc1ccccc1": "[Xe]Cc1ccccc1"
+  },
+  "m0780a": {
+    "Cc1cscn1": "Cc1csc([Xe])n1",
+    "C": "C[Xe]",
+    "CCC(=O)Nc1nccs1": "CCC(=O)Nc1nc([Xe])cs1",
+    "CCC(N)=O": "CCC(=O)N[Xe]",
+    "c1cscn1": "[Xe]c1nccs1,[Xe]c1cscn1"
+  },
+  "m0789a": {},
+  "m0790a": {
+    "CCCNC": "CCC([Xe])NC",
+    "c1ccncc1": "[Xe]c1ccncc1"
+  }
+}

@@ -1,0 +1,1278 @@
+{
+  "m0145a": {
+    "subnode": {
+      "C1CCOC1": [
+        "subnode_m0145a_C1CCOC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCCO1": [
+        "synthon_m0145a_[Xe]C1CCCO1_0.mol"
+      ]
+    }
+  },
+  "m0031a": {
+    "subnode": {
+      "CCNS(C)(=O)=O": [
+        "subnode_m0031a_CCNS(C)(=O)=O_0.mol"
+      ]
+    },
+    "synthon": {
+      "CS(=O)(=O)NCC[Xe]": [
+        "synthon_m0031a_CS(=O)(=O)NCC[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0037a": {
+    "subnode": {
+      "c1cnoc1": [
+        "subnode_m0037a_c1cnoc1_0.mol"
+      ],
+      "O=c1cccn[nH]1": [
+        "subnode_m0037a_O=c1cccn[nH]1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccno1": [
+        "synthon_m0037a_[Xe]c1ccno1_0.mol"
+      ],
+      "O=c1cccnn1[Xe]": [
+        "synthon_m0037a_O=c1cccnn1[Xe]_0.mol"
+      ],
+      "[Xe]c1ccon1": [
+        "synthon_m0037a_[Xe]c1ccon1_0.mol"
+      ],
+      "O=c1ccc([Xe])n[nH]1": [
+        "synthon_m0037a_O=c1ccc([Xe])n[nH]1_0.mol"
+      ]
+    }
+  },
+  "m0043a": {
+    "subnode": {
+      "C1CC2(CCOC2)CN1": [
+        "subnode_m0043a_C1CC2(CCOC2)CN1_0.mol"
+      ],
+      "c1cnccn1": [
+        "subnode_m0043a_c1cnccn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1cnccn1": [
+        "synthon_m0043a_[Xe]c1cnccn1_0.mol"
+      ],
+      "[Xe]N1CCC2(CCOC2)C1": [
+        "synthon_m0043a_[Xe]N1CCC2(CCOC2)C1_0.mol"
+      ]
+    }
+  },
+  "m0046a": {
+    "subnode": {
+      "C1CNC1": [
+        "subnode_m0046a_C1CNC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCC1": [
+        "synthon_m0046a_[Xe]N1CCC1_0.mol"
+      ],
+      "[Xe]C1CNC1": [
+        "synthon_m0046a_[Xe]C1CNC1_0.mol"
+      ]
+    }
+  },
+  "m0099a": {
+    "subnode": {
+      "c1ccc2c(c1)C1CCC2NC1": [
+        "subnode_m0099a_c1ccc2c(c1)C1CCC2NC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CC2CCC1c1ccccc12": [
+        "synthon_m0099a_[Xe]N1CC2CCC1c1ccccc12_0.mol"
+      ]
+    }
+  },
+  "m0102a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0102a_C1CCNCC1_0.mol"
+      ],
+      "c1cncnc1": [
+        "subnode_m0102a_c1cncnc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCCC1": [
+        "synthon_m0102a_[Xe]N1CCCCC1_0.mol"
+      ],
+      "[Xe]c1ncccn1": [
+        "synthon_m0102a_[Xe]c1ncccn1_0.mol"
+      ],
+      "[Xe]c1ccncn1": [
+        "synthon_m0102a_[Xe]c1ccncn1_0.mol"
+      ]
+    }
+  },
+  "m0140a": {
+    "subnode": {
+      "c1ccc2[nH]cnc2c1": [
+        "subnode_m0140a_c1ccc2[nH]cnc2c1_0.mol"
+      ],
+      "CCC(N)=O": [
+        "subnode_m0140a_CCC(N)=O_0.mol"
+      ],
+      "CCC": [
+        "subnode_m0140a_CCC_0.mol",
+        "subnode_m0140a_CCC_1.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1cnc2ccccc21": [
+        "synthon_m0140a_[Xe]n1cnc2ccccc21_0.mol"
+      ],
+      "[Xe]c1nc2ccccc2[nH]1": [
+        "synthon_m0140a_[Xe]c1nc2ccccc2[nH]1_0.mol"
+      ],
+      "CCC(=O)N[Xe]": [
+        "synthon_m0140a_CCC(=O)N[Xe]_0.mol"
+      ],
+      "CCC[Xe]": [
+        "synthon_m0140a_CCC[Xe]_0.mol",
+        "synthon_m0140a_CCC[Xe]_1.mol"
+      ]
+    }
+  },
+  "m0176a": {
+    "subnode": {
+      "c1ccoc1": [
+        "subnode_m0176a_c1ccoc1_0.mol"
+      ],
+      "C1CNCCN1": [
+        "subnode_m0176a_C1CNCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCNCC1": [
+        "synthon_m0176a_[Xe]N1CCNCC1_0.mol"
+      ],
+      "[Xe]c1ccco1": [
+        "synthon_m0176a_[Xe]c1ccco1_0.mol"
+      ]
+    }
+  },
+  "m0194a": {
+    "subnode": {
+      "c1ncc2cn[nH]c2n1": [
+        "subnode_m0194a_c1ncc2cn[nH]c2n1_0.mol"
+      ],
+      "CNC(C)C": [
+        "subnode_m0194a_CNC(C)C_0.mol",
+        "subnode_m0194a_CNC(C)C_1.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1ncc2cncnc21": [
+        "synthon_m0194a_[Xe]n1ncc2cncnc21_0.mol"
+      ],
+      "CC(C)N(C)[Xe]": [
+        "synthon_m0194a_CC(C)N(C)[Xe]_0.mol",
+        "synthon_m0194a_CC(C)N(C)[Xe]_1.mol"
+      ],
+      "[Xe]c1ncnc2[nH]ncc12": [
+        "synthon_m0194a_[Xe]c1ncnc2[nH]ncc12_0.mol"
+      ]
+    }
+  },
+  "m0194b": {
+    "subnode": {
+      "c1ncc2cn[nH]c2n1": [
+        "subnode_m0194b_c1ncc2cn[nH]c2n1_0.mol"
+      ],
+      "CNC(C)C": [
+        "subnode_m0194b_CNC(C)C_0.mol",
+        "subnode_m0194b_CNC(C)C_1.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1ncc2cncnc21": [
+        "synthon_m0194b_[Xe]n1ncc2cncnc21_0.mol"
+      ],
+      "CC(C)N(C)[Xe]": [
+        "synthon_m0194b_CC(C)N(C)[Xe]_0.mol",
+        "synthon_m0194b_CC(C)N(C)[Xe]_1.mol"
+      ],
+      "[Xe]c1ncnc2[nH]ncc12": [
+        "synthon_m0194b_[Xe]c1ncnc2[nH]ncc12_0.mol"
+      ]
+    }
+  },
+  "m0199a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0199a_C1COCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCOCC1": [
+        "synthon_m0199a_[Xe]N1CCOCC1_0.mol"
+      ]
+    }
+  },
+  "m0199b": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0199b_C1COCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCOCC1": [
+        "synthon_m0199b_[Xe]N1CCOCC1_0.mol"
+      ]
+    }
+  },
+  "m0215a": {
+    "subnode": {
+      "O=C1CCCN1": [
+        "subnode_m0215a_O=C1CCCN1_0.mol"
+      ],
+      "c1cscn1": [
+        "subnode_m0215a_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1nccs1": [
+        "synthon_m0215a_[Xe]c1nccs1_0.mol"
+      ],
+      "O=C1CCCN1[Xe]": [
+        "synthon_m0215a_O=C1CCCN1[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0215b": {
+    "subnode": {
+      "O=C1CCCN1": [
+        "subnode_m0215b_O=C1CCCN1_0.mol"
+      ],
+      "c1cscn1": [
+        "subnode_m0215b_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1nccs1": [
+        "synthon_m0215b_[Xe]c1nccs1_0.mol"
+      ],
+      "O=C1CCCN1[Xe]": [
+        "synthon_m0215b_O=C1CCCN1[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0219a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0219a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCCNC1": [
+        "synthon_m0219a_[Xe]C1CCCNC1_0.mol"
+      ],
+      "[Xe]N1CCCCC1": [
+        "synthon_m0219a_[Xe]N1CCCCC1_0.mol"
+      ]
+    }
+  },
+  "m0225a": {
+    "subnode": {
+      "c1ccc2c(c1)OCO2": [
+        "subnode_m0225a_c1ccc2c(c1)OCO2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccc2c(c1)OCO2": [
+        "synthon_m0225a_[Xe]c1ccc2c(c1)OCO2_0.mol"
+      ]
+    }
+  },
+  "m0238a": {
+    "subnode": {
+      "CNC(C)=O": [
+        "subnode_m0238a_CNC(C)=O_0.mol"
+      ],
+      "c1ccncc1": [
+        "subnode_m0238a_c1ccncc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccccn1": [
+        "synthon_m0238a_[Xe]c1ccccn1_0.mol"
+      ],
+      "CC(=O)NC[Xe]": [
+        "synthon_m0238a_CC(=O)NC[Xe]_0.mol"
+      ],
+      "[Xe]c1ccncc1": [
+        "synthon_m0238a_[Xe]c1ccncc1_0.mol"
+      ]
+    }
+  },
+  "m0243a": {
+    "subnode": {
+      "O=S1(=O)CCNCC1": [
+        "subnode_m0243a_O=S1(=O)CCNCC1_0.mol"
+      ],
+      "CCOC(C)=O": [
+        "subnode_m0243a_CCOC(C)=O_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=S1(=O)CCN([Xe])CC1": [
+        "synthon_m0243a_O=S1(=O)CCN([Xe])CC1_0.mol"
+      ],
+      "CCOC(=O)C[Xe]": [
+        "synthon_m0243a_CCOC(=O)C[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0248a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0248a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCCC1": [
+        "synthon_m0248a_[Xe]N1CCCCC1_0.mol"
+      ],
+      "[Xe]C1CCNCC1": [
+        "synthon_m0248a_[Xe]C1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0266a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0269a": {
+    "subnode": {
+      "CCCS(N)(=O)=O": [
+        "subnode_m0269a_CCCS(N)(=O)=O_0.mol",
+        "subnode_m0269a_CCCS(N)(=O)=O_1.mol"
+      ]
+    },
+    "synthon": {
+      "CC([Xe])CS(N)(=O)=O": [
+        "synthon_m0269a_CC([Xe])CS(N)(=O)=O_0.mol",
+        "synthon_m0269a_CC([Xe])CS(N)(=O)=O_1.mol"
+      ]
+    }
+  },
+  "m0286a": {
+    "subnode": {
+      "c1ccc2c(c1)OCO2": [
+        "subnode_m0286a_c1ccc2c(c1)OCO2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccc2c(c1)OCO2": [
+        "synthon_m0286a_[Xe]c1ccc2c(c1)OCO2_0.mol"
+      ]
+    }
+  },
+  "m0306a": {
+    "subnode": {
+      "c1ccc2c(c1)CCCN2": [
+        "subnode_m0306a_c1ccc2c(c1)CCCN2_0.mol"
+      ],
+      "CN(C)C=O": [
+        "subnode_m0306a_CN(C)C=O_0.mol"
+      ]
+    },
+    "synthon": {
+      "CN(C)C(=O)[Xe]": [
+        "synthon_m0306a_CN(C)C(=O)[Xe]_0.mol"
+      ],
+      "[Xe]c1ccc2c(c1)CCCN2": [
+        "synthon_m0306a_[Xe]c1ccc2c(c1)CCCN2_0.mol"
+      ]
+    }
+  },
+  "m0310a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0322a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0332a": {
+    "subnode": {
+      "C1CNCCN1": [
+        "subnode_m0332a_C1CNCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCNCC1": [
+        "synthon_m0332a_[Xe]N1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0354a": {
+    "subnode": {
+      "c1c[nH]cn1": [
+        "subnode_m0354a_c1c[nH]cn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1ccnc1": [
+        "synthon_m0354a_[Xe]n1ccnc1_0.mol"
+      ],
+      "[Xe]c1ncc[nH]1": [
+        "synthon_m0354a_[Xe]c1ncc[nH]1_0.mol"
+      ]
+    }
+  },
+  "m0358a": {
+    "subnode": {
+      "c1ccc2c(c1)CCCN2": [
+        "subnode_m0358a_c1ccc2c(c1)CCCN2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccc2c(c1)NCCC2": [
+        "synthon_m0358a_[Xe]c1ccc2c(c1)NCCC2_0.mol"
+      ],
+      "[Xe]N1CCCc2ccccc21": [
+        "synthon_m0358a_[Xe]N1CCCc2ccccc21_0.mol"
+      ]
+    }
+  },
+  "m0358b": {
+    "subnode": {
+      "c1ccc2c(c1)CCCN2": [
+        "subnode_m0358b_c1ccc2c(c1)CCCN2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccc2c(c1)NCCC2": [
+        "synthon_m0358b_[Xe]c1ccc2c(c1)NCCC2_0.mol"
+      ],
+      "[Xe]N1CCCc2ccccc21": [
+        "synthon_m0358b_[Xe]N1CCCc2ccccc21_0.mol"
+      ]
+    }
+  },
+  "m0379a": {
+    "subnode": {
+      "C1CNCCN1": [
+        "subnode_m0379a_C1CNCCN1_0.mol"
+      ],
+      "c1cncnc1": [
+        "subnode_m0379a_c1cncnc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCNCC1": [
+        "synthon_m0379a_[Xe]N1CCNCC1_0.mol"
+      ],
+      "[Xe]c1ccncn1": [
+        "synthon_m0379a_[Xe]c1ccncn1_0.mol"
+      ],
+      "[Xe]c1ncccn1": [
+        "synthon_m0379a_[Xe]c1ncccn1_0.mol"
+      ]
+    }
+  },
+  "m0393a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0393a_C1COCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CNCCO1": [
+        "synthon_m0393a_[Xe]C1CNCCO1_0.mol"
+      ]
+    }
+  },
+  "m0401a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0401a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCNCC1": [
+        "synthon_m0401a_[Xe]C1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0404a": {
+    "subnode": {
+      "C1CNCCNC1": [
+        "subnode_m0404a_C1CNCCNC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCNCC1": [
+        "synthon_m0404a_[Xe]N1CCCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0407a": {
+    "subnode": {
+      "c1ccncc1": [
+        "subnode_m0407a_c1ccncc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccccn1": [
+        "synthon_m0407a_[Xe]c1ccccn1_0.mol"
+      ]
+    }
+  },
+  "m0409a": {
+    "subnode": {
+      "c1ccc2c(c1)CNC2": [
+        "subnode_m0409a_c1ccc2c(c1)CNC2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccc2c(c1)CNC2": [
+        "synthon_m0409a_[Xe]c1ccc2c(c1)CNC2_0.mol"
+      ],
+      "[Xe]N1Cc2ccccc2C1": [
+        "synthon_m0409a_[Xe]N1Cc2ccccc2C1_0.mol"
+      ]
+    }
+  },
+  "m0424a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0455a": {
+    "subnode": {
+      "c1cscn1": [
+        "subnode_m0455a_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1cncs1": [
+        "synthon_m0455a_[Xe]c1cncs1_0.mol"
+      ],
+      "[Xe]c1nccs1": [
+        "synthon_m0455a_[Xe]c1nccs1_0.mol"
+      ]
+    }
+  },
+  "m0457a": {
+    "subnode": {
+      "C1CCOC1": [
+        "subnode_m0457a_C1CCOC1_0.mol"
+      ],
+      "c1ccncc1": [
+        "subnode_m0457a_c1ccncc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCCO1": [
+        "synthon_m0457a_[Xe]C1CCCO1_0.mol"
+      ],
+      "[Xe]c1ccncc1": [
+        "synthon_m0457a_[Xe]c1ccncc1_0.mol"
+      ]
+    }
+  },
+  "m0468a": {
+    "subnode": {
+      "c1ccc2[nH]cnc2c1": [
+        "subnode_m0468a_c1ccc2[nH]cnc2c1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1nc2ccccc2[nH]1": [
+        "synthon_m0468a_[Xe]c1nc2ccccc2[nH]1_0.mol"
+      ]
+    }
+  },
+  "m0469a": {
+    "subnode": {
+      "c1cn[nH]c1": [
+        "subnode_m0469a_c1cn[nH]c1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1cccn1": [
+        "synthon_m0469a_[Xe]n1cccn1_0.mol"
+      ],
+      "[Xe]c1cn[nH]c1": [
+        "synthon_m0469a_[Xe]c1cn[nH]c1_0.mol"
+      ]
+    }
+  },
+  "m0470a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0470a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCNCC1": [
+        "synthon_m0470a_[Xe]C1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0471a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0472a": {
+    "subnode": {
+      "c1ccc2c(c1)CCCN2": [
+        "subnode_m0472a_c1ccc2c(c1)CCCN2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CNc2ccccc2C1": [
+        "synthon_m0472a_[Xe]C1CNc2ccccc2C1_0.mol"
+      ]
+    }
+  },
+  "m0474a": {
+    "subnode": {
+      "c1cnoc1": [
+        "subnode_m0474a_c1cnoc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccno1": [
+        "synthon_m0474a_[Xe]c1ccno1_0.mol"
+      ],
+      "[Xe]c1ccon1": [
+        "synthon_m0474a_[Xe]c1ccon1_0.mol"
+      ]
+    }
+  },
+  "m0501a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0514a": {
+    "subnode": {
+      "O=C1CCCN1": [
+        "subnode_m0514a_O=C1CCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=C1CCCN1[Xe]": [
+        "synthon_m0514a_O=C1CCCN1[Xe]_0.mol"
+      ],
+      "O=C1NCCC1[Xe]": [
+        "synthon_m0514a_O=C1NCCC1[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0519a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0519a_C1CCNCC1_0.mol"
+      ],
+      "c1ccncc1": [
+        "subnode_m0519a_c1ccncc1_0.mol",
+        "subnode_m0519a_c1ccncc1_1.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccncc1": [
+        "synthon_m0519a_[Xe]c1ccncc1_0.mol",
+        "synthon_m0519a_[Xe]c1ccncc1_1.mol"
+      ],
+      "[Xe]N1CCCCC1": [
+        "synthon_m0519a_[Xe]N1CCCCC1_0.mol"
+      ],
+      "[Xe]C1CCNCC1": [
+        "synthon_m0519a_[Xe]C1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0533a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0533a_C1COCCN1_0.mol"
+      ],
+      "c1cscn1": [
+        "subnode_m0533a_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1nccs1": [
+        "synthon_m0533a_[Xe]c1nccs1_0.mol"
+      ],
+      "[Xe]C1CNCCO1": [
+        "synthon_m0533a_[Xe]C1CNCCO1_0.mol"
+      ],
+      "[Xe]N1CCOCC1": [
+        "synthon_m0533a_[Xe]N1CCOCC1_0.mol"
+      ]
+    }
+  },
+  "m0536a": {
+    "subnode": {
+      "c1nncc2[nH]ncc12": [
+        "subnode_m0536a_c1nncc2[nH]ncc12_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1n[nH]c2cnncc12": [
+        "synthon_m0536a_[Xe]c1n[nH]c2cnncc12_0.mol"
+      ],
+      "[Xe]c1nncc2cn[nH]c12": [
+        "synthon_m0536a_[Xe]c1nncc2cn[nH]c12_0.mol"
+      ],
+      "[Xe]n1ncc2cnncc21": [
+        "synthon_m0536a_[Xe]n1ncc2cnncc21_0.mol"
+      ]
+    }
+  },
+  "m0549a": {
+    "subnode": {
+      "CCNS(C)(=O)=O": [
+        "subnode_m0549a_CCNS(C)(=O)=O_0.mol"
+      ]
+    },
+    "synthon": {
+      "CS(=O)(=O)NCC[Xe]": [
+        "synthon_m0549a_CS(=O)(=O)NCC[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0573a": {
+    "subnode": {
+      "CN(C)C=O": [
+        "subnode_m0573a_CN(C)C=O_0.mol",
+        "subnode_m0573a_CN(C)C=O_1.mol"
+      ],
+      "C1COCC2(CCOC2)N1": [
+        "subnode_m0573a_C1COCC2(CCOC2)N1_0.mol"
+      ]
+    },
+    "synthon": {
+      "CN(C)C(=O)[Xe]": [
+        "synthon_m0573a_CN(C)C(=O)[Xe]_0.mol",
+        "synthon_m0573a_CN(C)C(=O)[Xe]_1.mol"
+      ],
+      "[Xe]N1CCOCC12CCOC2": [
+        "synthon_m0573a_[Xe]N1CCOCC12CCOC2_0.mol"
+      ]
+    }
+  },
+  "m0579a": {
+    "subnode": {
+      "C1CNCCN1": [
+        "subnode_m0579a_C1CNCCN1_0.mol"
+      ],
+      "c1ccoc1": [
+        "subnode_m0579a_c1ccoc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCNCC1": [
+        "synthon_m0579a_[Xe]N1CCNCC1_0.mol"
+      ],
+      "[Xe]c1ccco1": [
+        "synthon_m0579a_[Xe]c1ccco1_0.mol"
+      ]
+    }
+  },
+  "m0594a": {
+    "subnode": {
+      "CC#CCNC": [
+        "subnode_m0594a_CC#CCNC_0.mol",
+        "subnode_m0594a_CC#CCNC_1.mol"
+      ],
+      "O=S1(=O)CCCCC1": [
+        "subnode_m0594a_O=S1(=O)CCCCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=S1(=O)CCC([Xe])CC1": [
+        "synthon_m0594a_O=S1(=O)CCC([Xe])CC1_0.mol"
+      ],
+      "CC#CCN(C)[Xe]": [
+        "synthon_m0594a_CC#CCN(C)[Xe]_0.mol",
+        "synthon_m0594a_CC#CCN(C)[Xe]_1.mol"
+      ]
+    }
+  },
+  "m0594b": {
+    "subnode": {
+      "CC#CCNC": [
+        "subnode_m0594b_CC#CCNC_0.mol",
+        "subnode_m0594b_CC#CCNC_1.mol"
+      ],
+      "O=S1(=O)CCCCC1": [
+        "subnode_m0594b_O=S1(=O)CCCCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=S1(=O)CCC([Xe])CC1": [
+        "synthon_m0594b_O=S1(=O)CCC([Xe])CC1_0.mol"
+      ],
+      "CC#CCN(C)[Xe]": [
+        "synthon_m0594b_CC#CCN(C)[Xe]_0.mol",
+        "synthon_m0594b_CC#CCN(C)[Xe]_1.mol"
+      ]
+    }
+  },
+  "m0597a": {
+    "subnode": {
+      "C1CCNCC1": [
+        "subnode_m0597a_C1CCNCC1_0.mol"
+      ],
+      "c1cscn1": [
+        "subnode_m0597a_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCCC1": [
+        "synthon_m0597a_[Xe]N1CCCCC1_0.mol"
+      ],
+      "[Xe]C1CCCNC1": [
+        "synthon_m0597a_[Xe]C1CCCNC1_0.mol"
+      ],
+      "[Xe]c1cncs1": [
+        "synthon_m0597a_[Xe]c1cncs1_0.mol"
+      ],
+      "[Xe]C1CCNCC1": [
+        "synthon_m0597a_[Xe]C1CCNCC1_0.mol"
+      ]
+    }
+  },
+  "m0604a": {
+    "subnode": {
+      "CNC(=O)COC": [
+        "subnode_m0604a_CNC(=O)COC_0.mol"
+      ]
+    },
+    "synthon": {
+      "COCC(=O)NC[Xe]": [
+        "synthon_m0604a_COCC(=O)NC[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0606a": {
+    "subnode": {
+      "c1ccncc1": [
+        "subnode_m0606a_c1ccncc1_0.mol"
+      ],
+      "CCNC=O": [
+        "subnode_m0606a_CCNC=O_0.mol",
+        "subnode_m0606a_CCNC=O_1.mol"
+      ]
+    },
+    "synthon": {
+      "CCNC(=O)[Xe]": [
+        "synthon_m0606a_CCNC(=O)[Xe]_0.mol",
+        "synthon_m0606a_CCNC(=O)[Xe]_1.mol"
+      ],
+      "[Xe]c1cccnc1": [
+        "synthon_m0606a_[Xe]c1cccnc1_0.mol"
+      ],
+      "CC([Xe])NC=O": [
+        "synthon_m0606a_CC([Xe])NC=O_0.mol",
+        "synthon_m0606a_CC([Xe])NC=O_1.mol"
+      ]
+    }
+  },
+  "m0609a": {
+    "subnode": {
+      "CCNC(C)=O": [
+        "subnode_m0609a_CCNC(C)=O_0.mol"
+      ]
+    },
+    "synthon": {
+      "CC(=O)NCC[Xe]": [
+        "synthon_m0609a_CC(=O)NCC[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0611a": {
+    "subnode": {
+      "C1CNC1": [
+        "subnode_m0611a_C1CNC1_0.mol"
+      ],
+      "C1CCNC1": [
+        "subnode_m0611a_C1CCNC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCC1": [
+        "synthon_m0611a_[Xe]N1CCC1_0.mol"
+      ],
+      "[Xe]C1CNC1": [
+        "synthon_m0611a_[Xe]C1CNC1_0.mol"
+      ],
+      "[Xe]N1CCCC1": [
+        "synthon_m0611a_[Xe]N1CCCC1_0.mol"
+      ]
+    }
+  },
+  "m0615a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0615a_C1COCCN1_0.mol"
+      ],
+      "C1=CCNCC1": [
+        "subnode_m0615a_C1=CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CC=CCC1": [
+        "synthon_m0615a_[Xe]N1CC=CCC1_0.mol"
+      ],
+      "[Xe]C1=CCCNC1": [
+        "synthon_m0615a_[Xe]C1=CCCNC1_0.mol"
+      ],
+      "[Xe]N1CCOCC1": [
+        "synthon_m0615a_[Xe]N1CCOCC1_0.mol"
+      ]
+    }
+  },
+  "m0631a": {
+    "subnode": {
+      "O=S1(=O)CCNCC1": [
+        "subnode_m0631a_O=S1(=O)CCNCC1_0.mol"
+      ],
+      "c1ccoc1": [
+        "subnode_m0631a_c1ccoc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=S1(=O)CCN([Xe])CC1": [
+        "synthon_m0631a_O=S1(=O)CCN([Xe])CC1_0.mol"
+      ],
+      "[Xe]c1ccco1": [
+        "synthon_m0631a_[Xe]c1ccco1_0.mol"
+      ]
+    }
+  },
+  "m0638a": {
+    "subnode": {
+      "c1cn[nH]c1": [
+        "subnode_m0638a_c1cn[nH]c1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1cccn1": [
+        "synthon_m0638a_[Xe]n1cccn1_0.mol"
+      ],
+      "[Xe]c1cn[nH]c1": [
+        "synthon_m0638a_[Xe]c1cn[nH]c1_0.mol"
+      ]
+    }
+  },
+  "m0641a": {
+    "subnode": {
+      "O=c1cccc[nH]1": [
+        "subnode_m0641a_O=c1cccc[nH]1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=c1ccccn1[Xe]": [
+        "synthon_m0641a_O=c1ccccn1[Xe]_0.mol"
+      ]
+    }
+  },
+  "m0642a": {
+    "subnode": {
+      "C1CCCC2(CC1)CCCNC2": [
+        "subnode_m0642a_C1CCCC2(CC1)CCCNC2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCC2(CCCCCC2)C1": [
+        "synthon_m0642a_[Xe]N1CCCC2(CCCCCC2)C1_0.mol"
+      ]
+    }
+  },
+  "m0658a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0658a_C1COCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CNCCO1": [
+        "synthon_m0658a_[Xe]C1CNCCO1_0.mol"
+      ],
+      "[Xe]N1CCOCC1": [
+        "synthon_m0658a_[Xe]N1CCOCC1_0.mol"
+      ],
+      "[Xe]C1COCCN1": [
+        "synthon_m0658a_[Xe]C1COCCN1_0.mol"
+      ]
+    }
+  },
+  "m0659a": {
+    "subnode": {
+      "C1CCCNCC1": [
+        "subnode_m0659a_C1CCCNCC1_0.mol"
+      ],
+      "c1ccc2c(c1)OCO2": [
+        "subnode_m0659a_c1ccc2c(c1)OCO2_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCCCC1": [
+        "synthon_m0659a_[Xe]N1CCCCCC1_0.mol"
+      ],
+      "[Xe]c1ccc2c(c1)OCO2": [
+        "synthon_m0659a_[Xe]c1ccc2c(c1)OCO2_0.mol"
+      ]
+    }
+  },
+  "m0664a": {
+    "subnode": {
+      "C1COCCN1": [
+        "subnode_m0664a_C1COCCN1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCOCC1": [
+        "synthon_m0664a_[Xe]N1CCOCC1_0.mol"
+      ]
+    }
+  },
+  "m0666a": {
+    "subnode": {
+      "CCC": [
+        "subnode_m0666a_CCC_0.mol"
+      ],
+      "C1CNCCN1": [
+        "subnode_m0666a_C1CNCCN1_0.mol"
+      ],
+      "c1ccsc1": [
+        "subnode_m0666a_c1ccsc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "CC(C)[Xe]": [
+        "synthon_m0666a_CC(C)[Xe]_0.mol"
+      ],
+      "[Xe]N1CCNCC1": [
+        "synthon_m0666a_[Xe]N1CCNCC1_0.mol"
+      ],
+      "[Xe]c1cccs1": [
+        "synthon_m0666a_[Xe]c1cccs1_0.mol"
+      ]
+    }
+  },
+  "m0677a": {
+    "subnode": {
+      "C1CCOC1": [
+        "subnode_m0677a_C1CCOC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCCO1": [
+        "synthon_m0677a_[Xe]C1CCCO1_0.mol"
+      ]
+    }
+  },
+  "m0678a": {
+    "subnode": {
+      "C1CC2CNCC2C1": [
+        "subnode_m0678a_C1CC2CNCC2C1_0.mol"
+      ],
+      "O=CCOC(F)F": [
+        "subnode_m0678a_O=CCOC(F)F_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=C([Xe])COC(F)F": [
+        "synthon_m0678a_O=C([Xe])COC(F)F_0.mol"
+      ],
+      "[Xe]N1CC2CCCC2C1": [
+        "synthon_m0678a_[Xe]N1CC2CCCC2C1_0.mol"
+      ]
+    }
+  },
+  "m0717a": {
+    "subnode": {
+      "C1CCC2(CCCC2)OC1": [
+        "subnode_m0717a_C1CCC2(CCCC2)OC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCOC2(CCCC2)C1": [
+        "synthon_m0717a_[Xe]C1CCOC2(CCCC2)C1_0.mol"
+      ]
+    }
+  },
+  "m0718a": {
+    "subnode": {
+      "CCNS(C)(=O)=O": [
+        "subnode_m0718a_CCNS(C)(=O)=O_0.mol",
+        "subnode_m0718a_CCNS(C)(=O)=O_1.mol"
+      ]
+    },
+    "synthon": {
+      "CC([Xe])NS(C)(=O)=O": [
+        "synthon_m0718a_CC([Xe])NS(C)(=O)=O_0.mol",
+        "synthon_m0718a_CC([Xe])NS(C)(=O)=O_1.mol"
+      ]
+    }
+  },
+  "m0728a": {
+    "subnode": {
+      "c1ccncc1": [
+        "subnode_m0728a_c1ccncc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1ccncc1": [
+        "synthon_m0728a_[Xe]c1ccncc1_0.mol"
+      ]
+    }
+  },
+  "m0731a": {
+    "subnode": {
+      "CN(CC=O)S(C)(=O)=O": [
+        "subnode_m0731a_CN(CC=O)S(C)(=O)=O_0.mol"
+      ],
+      "C1CCNCC1": [
+        "subnode_m0731a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "CN(CC(=O)[Xe])S(C)(=O)=O": [
+        "synthon_m0731a_CN(CC(=O)[Xe])S(C)(=O)=O_0.mol"
+      ],
+      "[Xe]N1CCCCC1": [
+        "synthon_m0731a_[Xe]N1CCCCC1_0.mol"
+      ]
+    }
+  },
+  "m0733a": {
+    "subnode": {
+      "c1cn[nH]c1": [
+        "subnode_m0733a_c1cn[nH]c1_0.mol"
+      ],
+      "CCNS(C)(=O)=O": [
+        "subnode_m0733a_CCNS(C)(=O)=O_0.mol",
+        "subnode_m0733a_CCNS(C)(=O)=O_1.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]n1cccn1": [
+        "synthon_m0733a_[Xe]n1cccn1_0.mol"
+      ],
+      "CC([Xe])NS(C)(=O)=O": [
+        "synthon_m0733a_CC([Xe])NS(C)(=O)=O_0.mol",
+        "synthon_m0733a_CC([Xe])NS(C)(=O)=O_1.mol"
+      ],
+      "[Xe]c1cn[nH]c1": [
+        "synthon_m0733a_[Xe]c1cn[nH]c1_0.mol"
+      ],
+      "[Xe]c1ccn[nH]1": [
+        "synthon_m0733a_[Xe]c1ccn[nH]1_0.mol"
+      ]
+    }
+  },
+  "m0743a": {
+    "subnode": {
+      "CCC=O": [
+        "subnode_m0743a_CCC=O_0.mol"
+      ],
+      "C1CCNCC1": [
+        "subnode_m0743a_C1CCNCC1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]C1CCCNC1": [
+        "synthon_m0743a_[Xe]C1CCCNC1_0.mol"
+      ],
+      "CCC(=O)[Xe]": [
+        "synthon_m0743a_CCC(=O)[Xe]_0.mol"
+      ],
+      "[Xe]N1CCCCC1": [
+        "synthon_m0743a_[Xe]N1CCCCC1_0.mol"
+      ]
+    }
+  },
+  "m0744a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0746a": {
+    "subnode": {
+      "C1CCNC1": [
+        "subnode_m0746a_C1CCNC1_0.mol"
+      ],
+      "c1cn[nH]c1": [
+        "subnode_m0746a_c1cn[nH]c1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]N1CCCC1": [
+        "synthon_m0746a_[Xe]N1CCCC1_0.mol"
+      ],
+      "[Xe]c1cn[nH]c1": [
+        "synthon_m0746a_[Xe]c1cn[nH]c1_0.mol"
+      ]
+    }
+  },
+  "m0770a": {
+    "subnode": {
+      "O=C1CNCC(=O)N1": [
+        "subnode_m0770a_O=C1CNCC(=O)N1_0.mol"
+      ]
+    },
+    "synthon": {
+      "O=C1CN([Xe])CC(=O)N1": [
+        "synthon_m0770a_O=C1CN([Xe])CC(=O)N1_0.mol"
+      ]
+    }
+  },
+  "m0780a": {
+    "subnode": {
+      "CCC(N)=O": [
+        "subnode_m0780a_CCC(N)=O_0.mol"
+      ],
+      "c1cscn1": [
+        "subnode_m0780a_c1cscn1_0.mol"
+      ]
+    },
+    "synthon": {
+      "[Xe]c1nccs1": [
+        "synthon_m0780a_[Xe]c1nccs1_0.mol"
+      ],
+      "CCC(=O)N[Xe]": [
+        "synthon_m0780a_CCC(=O)N[Xe]_0.mol"
+      ],
+      "[Xe]c1cscn1": [
+        "synthon_m0780a_[Xe]c1cscn1_0.mol"
+      ]
+    }
+  },
+  "m0789a": {
+    "subnode": {},
+    "synthon": {}
+  },
+  "m0790a": {
+    "subnode": {
+      "CCCNC": [
+        "subnode_m0790a_CCCNC_0.mol"
+      ],
+      "c1ccncc1": [
+        "subnode_m0790a_c1ccncc1_0.mol"
+      ]
+    },
+    "synthon": {
+      "CCC([Xe])NC": [
+        "synthon_m0790a_CCC([Xe])NC_0.mol"
+      ],
+      "[Xe]c1ccncc1": [
+        "synthon_m0790a_[Xe]c1ccncc1_0.mol"
+      ]
+    }
+  }
+}
